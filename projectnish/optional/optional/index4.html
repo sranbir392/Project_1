@@ -1,0 +1,144 @@
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Confetti Falling Animation Using HTML, CSS and JavaScript</title>
+	<!-- Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
+    <style>
+        *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.confetti{
+	position: absolute;
+	top: -100px;
+}
+/* Start Animation */
+.confetti:nth-child(100n+2){
+	animation: animateStart 1.5s ease 1;
+}
+.confetti:nth-child(100n+4){
+	animation: animateStart 1.4s ease 1;
+}
+.confetti:nth-child(1000n+0){
+	animation: animateStart 1.6s ease 1;
+}
+@keyframes animateStart{
+	0%{
+		top: 100%;
+		left: 50%;
+		box-shadow: 0 0 5px #000;
+	}
+	100%{
+		transform: rotate3d(1,1,1,360deg);
+		top: -100px;
+	}
+}
+/* Falling Animation */
+.confetti:nth-child(100n+0){
+	animation: animateThree 2.4s linear 0.5s 2;
+}
+.confetti:nth-child(100n+1){
+	animation: animate 2s linear 1;
+}
+.confetti:nth-child(100n+2){
+	animation: animate 2s linear 0.5s 1;
+}
+.confetti:nth-child(100n+5){
+	animation: animateTwo 3s linear 0.5s 1;
+}
+.confetti:nth-child(100n+6){
+	animation: animateTwo 2.9s linear 0.5s 2;
+}
+.confetti:nth-child(100n+7){
+	animation: animate 2.8s linear 0.5s 2;
+}
+.confetti:nth-child(100n+8){
+	animation: animate 2s linear 0.5s 2;
+}
+.confetti:nth-child(100n+9){
+	animation: animate 2s linear 0.5s 2;
+}
+.confetti:nth-child(100n+10){
+	animation: animate 2s linear 0.5s 2;
+}
+@keyframes animate{
+	0%{
+		top: -100px;
+	}
+	100%{
+		transform: rotate3d(1,1,1,360deg);
+		top: 100%;
+	}
+}
+@keyframes animateTwo{
+	0%{
+		top: -100px;
+	}
+	100%{
+		transform: rotate3d(0,0,1,360deg);
+		top: 100%;
+	}
+}
+@keyframes animateThree{
+	0%{
+		top: -100px;
+	}
+	100%{
+		transform: rotate3d(0,1,0,360deg);
+		top: 100%;
+	}
+}
+    </style>
+</head>
+
+<body>
+
+	<div class="box" id="box"></div>
+
+	<!-- JavaScript -->
+	<!-- <script src="js/main.js"></script> -->
+    <script>function confettiFalling() {
+
+        var box = document.getElementById("box");
+        var colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'pink'];
+    
+        for (var i = 0; i < 1000; i++) {
+            
+            // Create 1000 DIV elements for confetti
+            var div = document.createElement("div");
+            div.classList.add("confetti");
+            box.appendChild(div);
+        }
+    
+        var confetti = document.querySelectorAll('.confetti');
+    
+        for (var i = 0; i < confetti.length; i++) {
+            
+            var size = Math.random() * 0.01 * [i];
+    
+            confetti[i].style.width = 5 + size + 'px';
+            confetti[i].style.height = 16 + size + 'px';
+            confetti[i].style.left = Math.random() * innerWidth + 'px';
+    
+            var background = colors[Math.floor(Math.random() * colors.length)];
+            confetti[i].style.backgroundColor = background;
+    
+            box.children[i].style.transform = "rotate("+ size*[i] +"deg)";
+        }
+    }
+    confettiFalling();</script>
+</body>
+
+</html>
