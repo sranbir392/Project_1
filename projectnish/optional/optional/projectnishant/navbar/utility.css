@@ -1,0 +1,289 @@
+.hello {
+  float: right;
+  height: 32px;
+  text-align: center;
+  min-width: 655px;
+  color: rgb(147, 147, 147);
+}
+.search1 {
+  height: 32px;
+  width: 45px;
+  margin: 0px 0px 0px 0px;
+  /* border-bottom: 0.1px solid rgb(188, 177, 177); */
+  /* border-top: 0.1px solid rgb(188, 177, 177);
+     border-right:2px solid rgb(188, 177, 177); 
+     border-top-right-radius: 7px;
+     border-bottom-right-radius: 7px;
+     border-left:none;
+     padding-right:0px;  */
+  /* overflow: hidden; */
+  /* /* border: 1px solid red; */
+  /* padding: 0 0 0 8px;
+     outline: 0 none;
+     border-width: 0px; */
+  /* margin-top: 0px; */
+  /* margin: 0px; */
+  /* appearance: none;
+     background-color: initial; */
+  cursor: pointer;
+  padding: initial;
+  border: initial;
+  border-width: 0px;
+  /* margin-top: 0px; */
+}
+
+/* <input name="ctl00$txtSearchServicablePin" type="text" 
+    id="ctl00_txtSearchServicablePin" value="Enter Pin" 
+    readonly="" class="servicablepin headerspantext" 
+    style="text-align: center;">
+    --closeImage: url(https\:\/\/cdn\.yellowmessenger\.com\/files\/images\/close\.png);
+    padding: 0;
+    margin: 0px;
+    background: url('../Images/edit-pin.png') no-repeat 8px center;
+    max-width: 85px;
+    overflow: hidden;
+    padding-left: 25px;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    width: 100px;
+    font-family: "CeraPRO-Regular";
+    word-spacing: 3px;
+    background-color: transparent;
+    border: 0 none;
+    font-size: 12px;
+    font-weight: normal;
+    height: 32px;
+    text-align: left !important;
+    color: #393939; */
+
+span {
+  /* border:2px solid red;  */
+  height: 12px;
+  margin-left: 60px;
+  /* text-align: center; */
+  /* margin-left: 100px;
+    margin-bottom:0px; */
+
+  padding-bottom: 0px;
+}
+#up {
+   /* border:10px solid green;    */
+  height: 100px;
+  width: 1000px;
+  padding-bottom: -30px;
+  margin-top: 0px;
+}
+#upbox {
+  display: flex;
+   /* border:3px solid green;     */
+  margin-left: 110px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  /* justify-content: space-evenly; */
+  width: 530px;
+  height: 20px;
+  /* padding-left: 100px; */
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#span1 {
+  /* border: 1px solid green; */
+  padding-right: 30px;
+  cursor: pointer;
+  text-align: center;
+  /* padding: 0; */
+  font-weight: normal;
+  margin: 0px;
+  font-size: 12px;
+  color: #393939;
+  font-family: CeraPRO-Regular;
+  /* float: right; */
+  font-size: 15px;
+  height: 20px;
+  padding-left: 5px;
+  border-right: 0.1px solid rgb(188, 177, 177);
+}
+#span2 {
+  /* border: 1px solid green; */
+  cursor: pointer;
+  text-align: center;
+  /* padding: 0; */
+  font-weight: normal;
+  margin: 0px;
+  font-size: 12px;
+  color: #393939;
+  font-family: CeraPRO-Regular;
+  font-size: 15px;
+  height: 20px;
+  padding-right: 30px;
+  padding-left: 10px;
+  border-right: 0.1px solid rgb(188, 177, 177);
+}
+#span3,
+#span4 {
+  /* border: 1px solid green; */
+  cursor: pointer;
+  text-align: center;
+  /* padding: 0; */
+  font-weight: normal;
+  margin: 0px;
+  font-size: 12px;
+  color: #393939;
+  font-family: CeraPRO-Regular;
+  font-size: 15px;
+  height: 20px;
+  border-right: 0.1px solid rgb(188, 177, 177);
+
+  /* padding-right: 30px; */
+}
+#span3 {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+#span4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#check {
+  /* border: 1px solid red; */
+  height: 2000px;
+    /* position:static */
+  /* margin-top: 150px; */
+   /* z-index: 9;  */
+}
+.popup_pin {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   display: none;
+}
+.insidepop {
+  width: 650px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  border-top: 4px solid #6fa624;
+  padding: 20px;
+  position: relative;
+  border: 1px solid blue;
+}
+.spanHeading{
+   font-family: CeraPRO-Regular;
+  font-weight: normal;
+  /* border: 1px solid red; */
+  margin-right:60px;
+  color:#000;
+  font-size: 17px;
+    font-weight: bold;
+  
+  
+  /* margin: 0px;
+  outline: none;
+  height: 23px;
+  border-bottom: solid 0px #c1c1c1;
+  border-top: dashed 0px #c1c1c1;
+  padding: 2px 0px 10px 0px;
+  background-color: blanchedalmond; */ 
+  font-size: 20px;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right:18px;
+   top:-10px; 
+  float: right;
+  font-size: 42px;
+  transform:rotate(45deg);
+  cursor: pointer;
+  
+}
+#txt{
+  width: 200px;
+   height: 30px;
+   padding-left:2px;
+   font-family: CeraPRO-Regular;
+   /* border:1px solid red; */
+   margin-bottom: 10px;
+   outline: none;
+   
+}
+#btnAddPin{
+  font-size: 15px;
+  margin-left:0px;
+  /* border: 1px solid red; */
+  font-size: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #282727;
+    background: #92be4d;
+  
+    cursor: pointer;
+    font-family: 'CeraPRO-Regular';
+    border: none;
+    
+    border-radius: 10px;
+    padding: 5px 32px;
+}
+#btnAddPin:hover{
+  background-color: #659e10;
+}
+
+
+.spanSubHeading{
+  /* border:1px solid red; */
+  /* box-sizing: border-box; */
+  /* padding-top: 30px; */
+  /* margin-left: -20px; */
+  /* word-spacing:0px; */
+  font-size: 15px;
+  color:#201f1f;
+  font-weight: bold;
+  font-family: CeraPRO-Regular;
+ /* margin-bottom: 20px;
+ padding-bottom: 20px; */
+ /* margin:30px 0px 30px 0px;
+padding:30px 0px 30px 0px ; */
+margin-left: 0px;
+margin-right: 0px;
+}
+.popup_login{
+  /* border:1px solid red; */
+ 
+}
+.HeadingContainer{
+  /* border:1px solid red; */
+  margin-bottom: 35px;
+ 
+}
+#niche_kr{
+  margin-bottom: 30px;
+}
+#login1{
+  display: flex;
+  float: right;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-right: -40px;
+  justify-content: space-evenly; 
+  font-size: 14px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+#login1>span:nth-child(2){
+  border:0px solid green;
+margin-left: 0px;
+
+}
+
