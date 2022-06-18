@@ -144,6 +144,7 @@ button {
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
+  color: rgb(113, 109, 109);
 }
 
 .pre-btn,
@@ -563,34 +564,39 @@ a{
   width: 30%;
 }
 #img3>img{
-  width: 50%;
+  width: 75%;
 }
 #img4>img{
-  width: 30%;
+  width: 50%;
 }
 #img5>img{
   width: 30%;
 }
 #img6>img{
-  width: 30%;
+  width: 75%;
 }
 #img7>img{
-  width: 30%;
+  width: 75%;
 }
 #img8>img{
-  width: 30%;
+  width: 75%;
 }
 #img9>img{
-  width: 30%;
+  width: 75%;
 }
 #img10>img{
-  width: 30%;
+  width: 75%;
 }
 #img11>img{
-  width: 30%;
+  width: 75%;
 }
 #img12>img{
-  width: 30%;
+  width: 75%;
 }
-
+.product-info{
+  text-transform: capitalize;
+  background-color: white;
+  height: 220px;
+  text-decoration: none;
+}
 
