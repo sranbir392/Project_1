@@ -1,0 +1,79 @@
+
+/* z-index: 9999
+<input name="ctl00$txtMasterSearch1" type="text" value="Start shopping..."
+ id="ctl00_txtMasterSearch1" class="pnlsearchwithpincity ac_input" 
+ placeholder="" style="float: right; height: 32px;
+  text-align: center; z-index: 9999; min-width: 655px;
+ color: rgb(147, 147, 147);" autocomplete="off">
+ --closeImage: url(https\:\/\/cdn\.yellowmessenger\.com\/files\/images\/close\.png);
+ padding: 0;
+ font-weight: normal;
+ margin: 0px;
+ outline: none;
+ width: 645px;
+ font-family: "CeraPRO-Regular";
+ font-size: 13px;
+ background-color: #ffffff;
+ word-spacing: 3px;
+ border: 0;
+ padding-left: 10px;
+ cursor: pointer;
+ float: right;
+ height: 32px;
+ text-align: center;
+ z-index: 9999;
+ min-width: 655px;
+ color: rgb(147, 147, 147); */
+ /* document.querySelector("#ctl00_txtMasterSearch1")
+ document.querySelector("#ctl00_divPnlMasterSearch1")
+ font-family: 'CeraPRO-Light', CeraPRO-Regular;
+ --closeImage: url(https\:\/\/cdn\.yellowmessenger\.com\/files\/images\/close\.png);
+ padding: 0;
+ font-weight: normal;
+ margin: 0px;
+ outline: none;
+ border: 1px solid #c6c6c6;
+ box-shadow: -1px 0 3px #efefef;
+ float: left;
+ position: relative;
+ border-left: 0;
+ <div id="ctl00_divPnlMasterSearch1" class="search-panel
+              <input name="ctl00$txtMasterSearch1"
+               type="text" value="Start shopping..."       
+                 id="ctl00_txtMasterSearch1" 
+             class="pnlsearchwithpincity ac_input   
+              placeholder="" style="float: right; height: 32px; text-align:
+               center; z-index: 9999; min-width: 655px; color: rgb(147, 147, 147);
+               " autocomplete="off">
+                                    </div>
+                                    document.querySelector("#ctl00_PnlSearch")
+                                    <a href="MyList.aspx" class="headstar star"><span class="favcount"'
+                                    ' style="display:none;">0</span></a>
+                                    font-family: 'CeraPRO-Light', CeraPRO-Regular;
+                                    --closeImage: url(https\:\/\/cdn\.yellowmessenger\.com\/files\/images\/close\.png);
+                                    font-weight: normal;
+                                    transition: all 300ms ease 0s;
+                                    cursor: pointer;
+                                    outline: 0 none;
+                                    text-decoration: none;
+                                    color: #880033;
+                                    background: url("../Images/header-icons.jpg") no-repeat scroll 0 0;
+                                    border-right: 1px solid #999;
+                                    float: left;
+                                    height: 30px;
+                                    margin: 0 0 0 8px;
+                                    padding: 2px 9px 0;
+                                    width: 20px; */
+                                    --closeImage: url(https\:\/\/cdn\.yellowmessenger\.com\/files\/images\/close\.png);
+                                    font-family: CeraPRO-Regular;
+                                    font-weight: normal;
+                                    margin: 0px;
+                                    outline: none;
+                                    height: 23px;
+                                    border-bottom: solid 0px #c1c1c1;
+                                    border-top: dashed 0px #c1c1c1;
+                                    padding: 2px 0px 10px 0px;
+                                    font-size: 12px;
+                                    color: #201f1f;
+                                    font-weight: normal;
+                                    margin: 0px;
