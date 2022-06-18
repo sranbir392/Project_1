@@ -68,8 +68,10 @@ button{
     width: 220px;
     background-color: white;
     border-radius: 6px;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,-80%);
     margin-top: 40px;
     text-align: center;
     padding: 0 30px 30px;
