@@ -48,7 +48,7 @@
         if (checklogin(data.email, data.password) === true) {
             localStorage.setItem("login", JSON.stringify(data));
             alert("Login successful");
-            window.location.href = "nav.html";
+            window.location.href = "index.html";
         } else {
             alert("Wrong Email or Password");
         }
