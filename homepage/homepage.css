@@ -67,7 +67,7 @@ h1 {
   font-size: 35px;
 }
 
-button {
+.btnn {
   border: 1px solid transparent;
   color: white;
   background-color: green;
@@ -144,6 +144,7 @@ button {
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
+  color: rgb(113, 109, 109);
 }
 
 .pre-btn,
@@ -563,34 +564,150 @@ a{
   width: 30%;
 }
 #img3>img{
-  width: 50%;
+  width: 75%;
 }
 #img4>img{
-  width: 30%;
+  width: 50%;
 }
 #img5>img{
   width: 30%;
 }
 #img6>img{
-  width: 30%;
+  width: 75%;
 }
 #img7>img{
-  width: 30%;
+  width: 75%;
 }
 #img8>img{
-  width: 30%;
+  width: 75%;
 }
 #img9>img{
-  width: 30%;
+  width: 75%;
 }
 #img10>img{
-  width: 30%;
+  width: 75%;
 }
 #img11>img{
-  width: 30%;
+  width: 75%;
 }
 #img12>img{
-  width: 30%;
+  width: 75%;
+}
+.product-info{
+  text-transform: capitalize;
+  background-color: white;
+  height: 220px;
+  text-decoration: none;
+}
+#event{
+  width: 87%;
+  margin: auto;
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+}
+.evenbox{
+  width: 32%;
+  height: 100%;
+}
+.evenbox>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+#brand{
+  width: 87%;
+  margin: auto;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+.brandimg{
+  width: 18%;
+  height: 100%;
+}
+.brandimg>img{
+  width: 100%;
+  height: 100%;
 }
 
 
+/* trending part style */
+
+#trend{
+  border: 1px solid transparent;
+  width: 87%;
+  margin: auto;
+  display: flex;
+  height: 500px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.trendbox{
+  width: 23%;
+  height: 100%;
+}
+.imgift{
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  width: 90%;
+  height: 50%;
+  border: 2px solid rgb(177, 165, 165);
+  border-radius: 20px;
+}
+.trendbox:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dely{
+  display: block;
+  color: red;
+  border: 1px solid red;
+  padding: 0px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+.des{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.trendbox>p{
+  text-align: center;
+  font-size: 18px;
+}
+.pri{
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  height: 24px;
+  width: 50%;
+  padding: 0px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: auto;
+}
+.cartthg{
+  display: block;
+  height: 28px;
+  width: 25%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* poster4 style */
+
+#poster4{
+  margin:auto;
+  margin-top: 20px;
+  width: 87%;
+}
+#poster4>img{
+  width: 100%;
+  height: 100%;
+}

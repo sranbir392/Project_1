@@ -175,6 +175,6 @@ document
     localStorage.removeItem("cartmei");
     display(arrdata)
     // location.href = "index4.html";
-    location.href="index.html"
+    location.href="nav.html"
   });
   

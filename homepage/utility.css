@@ -5,6 +5,7 @@
   min-width: 655px;
   color: rgb(147, 147, 147);
 }
+
 .search1 {
   height: 32px;
   width: 45px;
@@ -67,16 +68,18 @@ span {
 
   padding-bottom: 0px;
 }
+
 #up {
-   /* border:10px solid green;    */
+  /* border:10px solid green;    */
   height: 100px;
   width: 1000px;
   padding-bottom: -30px;
   margin-top: 0px;
 }
+
 #upbox {
   display: flex;
-   /* border:3px solid green;     */
+  /* border:3px solid green;     */
   margin-left: 110px;
   margin-top: 15px;
   margin-bottom: 7px;
@@ -85,11 +88,13 @@ span {
   height: 20px;
   /* padding-left: 100px; */
 }
+
 body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
+
 #span1 {
   /* border: 1px solid green; */
   padding-right: 30px;
@@ -107,6 +112,7 @@ body {
   padding-left: 5px;
   border-right: 0.1px solid rgb(188, 177, 177);
 }
+
 #span2 {
   /* border: 1px solid green; */
   cursor: pointer;
@@ -123,6 +129,7 @@ body {
   padding-left: 10px;
   border-right: 0.1px solid rgb(188, 177, 177);
 }
+
 #span3,
 #span4 {
   /* border: 1px solid green; */
@@ -140,21 +147,25 @@ body {
 
   /* padding-right: 30px; */
 }
+
 #span3 {
   padding-right: 20px;
   padding-left: 10px;
 }
+
 #span4 {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #check {
   /* border: 1px solid red; */
   height: 2000px;
-    /* position:static */
+  /* position:static */
   /* margin-top: 150px; */
-   /* z-index: 9;  */
+  /* z-index: 9;  */
 }
+
 .popup_pin {
   width: 100%;
   height: 100%;
@@ -165,8 +176,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-   display: none;
+  display: none;
 }
+
 .insidepop {
   width: 650px;
   height: 200px;
@@ -178,112 +190,128 @@ body {
   position: relative;
   border: 1px solid blue;
 }
-.spanHeading{
-   font-family: CeraPRO-Regular;
+
+.spanHeading {
+  font-family: CeraPRO-Regular;
   font-weight: normal;
   /* border: 1px solid red; */
-  margin-right:60px;
-  color:#000;
+  margin-right: 60px;
+  color: #000;
   font-size: 17px;
-    font-weight: bold;
-  
-  
+  font-weight: bold;
+
+
   /* margin: 0px;
   outline: none;
   height: 23px;
   border-bottom: solid 0px #c1c1c1;
   border-top: dashed 0px #c1c1c1;
   padding: 2px 0px 10px 0px;
-  background-color: blanchedalmond; */ 
+  background-color: blanchedalmond; */
   font-size: 20px;
 }
 
-.close{
+.close {
   position: absolute;
   top: 0;
-  right:18px;
-   top:-10px; 
+  right: 18px;
+  top: -10px;
   float: right;
   font-size: 42px;
-  transform:rotate(45deg);
+  transform: rotate(45deg);
   cursor: pointer;
-  
+
 }
-#txt{
+
+#txt {
   width: 200px;
-   height: 30px;
-   padding-left:2px;
-   font-family: CeraPRO-Regular;
-   /* border:1px solid red; */
-   margin-bottom: 10px;
-   outline: none;
-   
+  height: 30px;
+  padding-left: 2px;
+  font-family: CeraPRO-Regular;
+  /* border:1px solid red; */
+  margin-bottom: 10px;
+  outline: none;
+
 }
-#btnAddPin{
+
+#btnAddPin {
   font-size: 15px;
-  margin-left:0px;
+  margin-left: 0px;
   /* border: 1px solid red; */
   font-size: 15px;
-    margin-left: 10px;
-    font-size: 16px;
-    color: #282727;
-    background: #92be4d;
-  
-    cursor: pointer;
-    font-family: 'CeraPRO-Regular';
-    border: none;
-    
-    border-radius: 10px;
-    padding: 5px 32px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #282727;
+  background: #92be4d;
+
+  cursor: pointer;
+  font-family: 'CeraPRO-Regular';
+  border: none;
+
+  border-radius: 10px;
+  padding: 5px 32px;
 }
-#btnAddPin:hover{
+
+#btnAddPin:hover {
   background-color: #659e10;
 }
 
 
-.spanSubHeading{
+.spanSubHeading {
   /* border:1px solid red; */
   /* box-sizing: border-box; */
   /* padding-top: 30px; */
   /* margin-left: -20px; */
   /* word-spacing:0px; */
   font-size: 15px;
-  color:#201f1f;
+  color: #201f1f;
   font-weight: bold;
   font-family: CeraPRO-Regular;
- /* margin-bottom: 20px;
+  /* margin-bottom: 20px;
  padding-bottom: 20px; */
- /* margin:30px 0px 30px 0px;
+  /* margin:30px 0px 30px 0px;
 padding:30px 0px 30px 0px ; */
-margin-left: 0px;
-margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+<<<<<<< HEAD:projectnish/optional/optional/projectnishant/navbar/utility.css
 /* .popup_login{
   /* border:1px solid red; */
  
  
 .HeadingContainer{
+=======
+
+.popup_login {
+  /* border:1px solid red; */
+
+}
+
+.HeadingContainer {
+>>>>>>> 3d7267aa05874422fd5df0cb7d55f8f6fb72e128:homepage/utility.css
   /* border:1px solid red; */
   margin-bottom: 35px;
- 
+
 }
-#niche_kr{
+
+#niche_kr {
   margin-bottom: 30px;
 }
-#login1{
+
+#login1 {
   display: flex;
   float: right;
   margin-top: -30px;
   margin-bottom: 20px;
   margin-right: -40px;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   font-size: 14px;
   font-weight: lighter;
   cursor: pointer;
 }
-#login1>span:nth-child(2){
-  border:0px solid green;
-margin-left: 0px;
+
+#login1>span:nth-child(2) {
+  border: 0px solid green;
+  margin-left: 0px;
 
 }
-

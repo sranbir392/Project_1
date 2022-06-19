@@ -93,7 +93,7 @@
         <span id="ctl00_ContentPlaceHolder1_lblUserNameDetails"></span>
     </div> -->
     <h2 class="span1">
-    <span style="cursor: pointer;"id="acha" class="span1">Home   <span>&nbsp;&nbsp;&gt;&nbsp</span>
+    <span id="backtohome" style="cursor: pointer;"id="acha" class="span1" >Home   <span>&nbsp;&nbsp;&gt;&nbsp</span>
     <span id=" acha1" class="span1">Contact Us</span>
     </h2>
         <h2 id="acha3"> CONTACT US </h2>
@@ -339,7 +339,7 @@
   </div>
 </div>
 <canvas id="my-canvas"></canvas>
-<script src="index.min.js"></script>
+<!-- <script src="index.min.js"></script> -->
 <script>
     // const startit = () => {
     //     setTimeout(function () {
@@ -366,6 +366,12 @@ function openPopup() {
 function closePopup() {
   popup.classList.remove("open-popup");
 }
+      document.querySelector("#backtohome").addEventListener("click",function(){
+     location.href="nav.html"
+      })
+
+      
+
       
 </script>
 </body>
