@@ -1,4 +1,3 @@
-// var isfalse=true
 let docheck=JSON.parse(localStorage.getItem("login"))
 console.log(docheck)
 if(docheck===null){
@@ -53,14 +52,10 @@ document.querySelector("#span2").addEventListener("click",function(){
   
   }
 })
-// document.querySelector("#nexttopin").addEventListener("change",function(){
-//     localStorage.removeItem("pin");
+document.querySelector("#nexttopin").addEventListener("change",function(){
+    localStorage.removeItem("pin");
     
-<<<<<<< HEAD:projectnish/optional/optional/projectnishant/navbar/index.js
    })
-=======
-//    })
->>>>>>> 3d7267aa05874422fd5df0cb7d55f8f6fb72e128:projectnish/optional/optional/index.js
 //    var mensData = [
 //     {
 //       image_url:
@@ -100,7 +95,6 @@ document.querySelector("#span2").addEventListener("click",function(){
 //         divs.append(imgs,texts1,texts2,btn);
 //          document.querySelector("#check").append(divs)
 //       })
-<<<<<<< HEAD:projectnish/optional/optional/projectnishant/navbar/index.js
  
   // else{
 let checking=JSON.parse(localStorage.getItem("login"))
@@ -132,10 +126,3 @@ document.querySelector("#regnav").addEventListener("click",function(){
 document.querySelector("#cartnav").addEventListener("click",function(){
   location.href="linkcart.html";
 })
-=======
-      // document.querySelectorAll(".upd")[0].innerText="logout";
-      // document.querySelectorAll(".upd")[1].innerText="";
-      // document.querySelectorAll(".upd")[2].innerText="";
-      // document.querySelectorAll(".upd")[0].style.marginleft="70px"
-
->>>>>>> 3d7267aa05874422fd5df0cb7d55f8f6fb72e128:projectnish/optional/optional/index.js

@@ -16,7 +16,7 @@ function display(arrdata) {
     let divs = document.createElement("div");
     divs.setAttribute("class", "cart-item cart-column");
     let img = document.createElement("img");
-    img.src=el.image_url
+    img.src=el.img
     img.setAttribute("class", "cart-item-image");
     let span1 = document.createElement("span");
     span1.innerText = el.name;
@@ -175,6 +175,6 @@ document
     localStorage.removeItem("cartmei");
     display(arrdata)
     // location.href = "index4.html";
-    location.href="index.html"
+    // location.href="index.html"
   });
   

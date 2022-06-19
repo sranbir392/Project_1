@@ -32,25 +32,36 @@ font-size: 15px;
 #search_nav{
     /* background-color: white; */
     border-radius: 20px;
-    width: 20%;
+    background-color: rgb(57,63,66);
+    width: 15%;
     display: flex;
-    height: 5vh;
+    height: 4vh;
+    font-size: 20px;
+    align-items: center;
 }
 #search_bar{
     border-radius: 20px;
-    width: 70%;
+    font-size: 18px;
+    text-align:center;
+    width: 80%;
     height: 100%;
+    background-color: rgb(57,63,66);
     border: none;
+    outline: none;
 }
-#search_nav>button{
-    border: none;
-    background-color: white;
+#search_nav>i{
+    padding-right: 10px;
+    padding-left: 10px;
 }
-
+#search_nav>i:hover{
+    cursor: pointer;
+}
 #nav_option>ul>li>a:hover{
     color:azure;
     border-bottom: 1px solid whitesmoke;
 }
+/* Aside 1 */
+
 /* Aside 2 */
 #aside2{
     display: block;
@@ -270,6 +281,12 @@ footer>ul>li:hover{
     color: azure;
 }
 @media all and (min-width:600px) and (max-width:900px){
+    #search_nav{
+        width: 35%;
+    }
+    #nav_option>ul{
+        display: none;
+    }
     #food_type_p{
         display: grid;
         grid-template-columns: repeat(2,40%);
@@ -294,6 +311,13 @@ footer>ul>li:hover{
 }
 
 @media all and (min-width:300px) and (max-width:600px){
+    #search_nav{
+        width: 35%;
+        height: 1.5rem;
+    }
+    #nav_option>ul{
+        display: none;
+    }
     #food_type_p{
         display: grid;
         grid-template-columns: 100%;

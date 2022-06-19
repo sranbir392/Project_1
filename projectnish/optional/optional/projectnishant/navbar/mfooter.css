@@ -1,0 +1,120 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#mfoot{
+    /* border:4px solid blue; */
+    position: relative;
+}
+
+#foot-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 50px;
+    /* border:5px solid red; */
+}
+.foot-a{
+    color: #858585;
+    font-size: 13px;
+    text-decoration: none;
+}
+.foot-hf{
+    margin-bottom: 10px;
+}
+.foot-p{
+    color: #858585;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+.foot-h4{
+    color: #4a4a4a;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.foot-input{
+    width: 250px;
+    padding: 10px 13px;
+}
+button{
+    background-color: #99c655;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    margin-top: 10px;
+}
+.foot-hr{
+    width: 97%;
+}
+.image{
+    width: 300px;
+    margin-left: 10px;
+}
+#child-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.socialbtn{
+    margin: -15px;
+    height: 0px;
+}
+.paymentMethod img{
+    float: right;
+    margin-left: 14px;
+    width: 350px;
+    margin-top: -1px;
+}
+.popup{
+    width: 220px;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+      top: 50px;  
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    /* border: 5px solid red; */
+     /* bottom: 0px;  */
+}
+.open-popup{
+    visibility: visible;
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     /* border: 5px solid red;  */
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    background-color: white;
+    /* border: 5px solid red; */
+}
+.popup p{
+    background-color: white;
+    /* border: 5px solid red; */
+}
+.popup button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    /* border: 5px solid red; */
+} 

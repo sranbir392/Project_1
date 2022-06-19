@@ -1,0 +1,238 @@
+#move_left{
+    /* border:1px solid darkred;
+    background-color: #659e10; */
+    float: right;
+    width: 160px;
+    
+}
+#nishbox{
+    /* border:5px solid red; */
+    padding: 0px;
+}
+/* ...break */
+.hello {
+  float: right;
+  height: 32px;
+  text-align: center;
+  min-width: 655px;
+  color: rgb(147, 147, 147);
+  
+}
+ .search1 {
+    height: 32px;
+    width: 45px;
+    margin: 0px 0px 0px 0px;
+   
+    cursor: pointer;
+    padding: initial;
+    border: initial;
+    border-width: 0px;
+  
+  } 
+
+span {
+  height: 12px;
+  margin-left: 60px;
+  padding-bottom: 0px;
+}
+ 
+#up {
+  
+  height: 100px;
+  width: 1000px;
+  padding-bottom: -30px;
+  margin-top: 0px;
+}
+#upbox {
+  display: flex;
+  
+  margin-left: 110px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  
+  width: 530px;
+  height: 20px;
+  
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#span1 {
+  
+  padding-right: 30px;
+  cursor: pointer;
+  text-align: center;
+  
+  font-weight: normal;
+  margin: 0px;
+  font-size: 12px;
+  color: #393939;
+  font-family: CeraPRO-Regular;
+  
+  font-size: 15px;
+  height: 20px;
+  padding-left: 5px;
+  border-right: 0.1px solid rgb(188, 177, 177);
+}
+#span2 {
+  cursor: pointer;
+  text-align: center;
+
+  font-weight: normal;
+  margin: 0px;
+  font-size: 12px;
+  color: #393939;
+  font-family: CeraPRO-Regular;
+  font-size: 15px;
+  height: 20px;
+  padding-right: 30px;
+  padding-left: 10px;
+  border-right: 0.1px solid rgb(188, 177, 177);
+}
+#span3,
+#span4 {
+  cursor: pointer;
+  text-align: center;
+
+  font-weight: normal;
+  margin: 0px;
+  font-size: 12px;
+  color: #393939;
+  font-family: CeraPRO-Regular;
+  font-size: 15px;
+  height: 20px;
+  border-right: 0.1px solid rgb(188, 177, 177);
+}
+#span3 {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+#span4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* #check {
+  height: 2000px;
+} */
+
+.ppopup_pin {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+   position: absolute; 
+  top: 0;
+   display: flex; 
+  justify-content: center;
+  align-items: center;
+  z-index: 2000000;
+   display: none; 
+}
+
+ .insidepopp {
+  width: 650px;
+  height: 200px;
+  background-color: rgb(194, 189, 189);
+  text-align: center;
+  border-radius: 4px;
+  border-top: 4px solid #6fa624;
+  padding: 20px;
+  position: relative;
+  border: 1px solid blue;
+   /* z-index: 30000000000; */
+  opacity: 1; 
+}
+ 
+.spanHeading {
+  font-family: CeraPRO-Regular;
+  font-weight: normal;
+
+  margin-right: 60px;
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+
+  font-size: 20px;
+}
+
+.closee {
+  position: absolute;
+  top: 0;
+  right: 18px;
+  top: -10px;
+  float: right;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+} 
+
+
+ #txtt {
+  width: 200px;
+  height: 30px;
+  padding-left: 2px;
+  font-family: CeraPRO-Regular;
+  
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#btnAddPin {
+  font-size: 15px;
+  margin-left: 0px;
+  
+  font-size: 15px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #282727;
+  background: #92be4d;
+
+  cursor: pointer;
+  font-family: "CeraPRO-Regular";
+  border: none;
+
+  border-radius: 10px;
+  padding: 5px 32px;
+}
+#btnAddPin:hover {
+  background-color: #659e10;
+} 
+
+.spanSubHeading {
+  font-size: 15px;
+  color: #201f1f;
+  font-weight: bold;
+  font-family: CeraPRO-Regular;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.HeadingContainer {
+  margin-bottom: 35px;
+}
+#niche_kr {
+  margin-bottom: 30px;
+}
+
+#login1 {
+  display: flex;
+  float: right;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-right: -40px;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+#login1 > span:nth-child(2) {
+  border: 0px solid green;
+  margin-left: 0px;
+}   
