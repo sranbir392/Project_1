@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,10 @@
     <link rel="stylesheet" href="productpage.css">
     <link rel="stylesheet" href="footer.css">
     <style>
-        #mainbox{
-            width:90%;
+        #mainbox {
+            width: 90%;
             height: auto;
-           
+
             margin: auto;
             display: grid;
             gap: 20px;
@@ -19,59 +20,64 @@
             grid-template-rows: repeat(16, 500px);
         }
 
-        #mainbox>div>img{
-            border: 0.2px solid rgd(238,238,238);
+        #mainbox>div>img {
+            border: 0.2px solid rgd(238, 238, 238);
             width: 249px;
             height: 249px;
             box-shadow: 1px 2px #efe9e9;
             border-radius: 20px;
             padding: 10px;
         }
-    .gift{
+
+        .gift {
             text-align: center;
             margin: auto;
             margin-bottom: 20px;
             margin-top: 20px;
             color: black;
-        
 
-            
+
+
         }
-        .del{
+
+        .del {
             margin-left: 33px;
             width: 65%;
             font-size: 11px;
             margin-top: 15px;
-            border: 1px solid rgb(182,22,113);
+            border: 1px solid rgb(182, 22, 113);
             border-radius: 10px;
             text-align: center;
-            padding: 3px ;
+            padding: 3px;
             padding-top: 5px;
             padding-bottom: 5px;
-            color: rgb(182,22,113);
+            color: rgb(182, 22, 113);
             font-weight: bolder;
         }
-        .price{
-            border: 2px solid #6fa624; 
-            display:block; 
-            text-align: center; 
-            width:25%;
+
+        .price {
+            border: 2px solid #6fa624;
+            display: block;
+            text-align: center;
+            width: 25%;
             margin: auto;
-            padding:3px; 
+            padding: 3px;
             border-radius: 3px;
             margin-bottom: 10px;
         }
-        .price1{
-            
-            display:block; 
-            text-align: center; 
-            width:20%;
+
+        .price1 {
+
+            display: block;
+            text-align: center;
+            width: 20%;
             margin: auto;
-            padding:3px; 
+            padding: 3px;
             border-radius: 3px;
             margin-bottom: 10px;
         }
-        .mrp{
+
+        .mrp {
             margin: auto;
             margin-left: 30px;
             margin-right: 0px;
@@ -82,14 +88,16 @@
             text-align: center;
             color: black;
             font-size: 14px;
-           
-            
+
+
         }
-#innerbox{
-    display: flex;
-    /* border: 1px solid red; */
-}
-.addtocart{
+
+        #innerbox {
+            display: flex;
+            /* border: 1px solid red; */
+        }
+
+        .addtocart {
             margin: auto;
             margin-left: 0px;
             border: 1px solid green;
@@ -97,13 +105,13 @@
             width: 80px;
             padding: 2px;
             text-align: center;
-            color:white;
+            color: white;
             background-color: #92be4d;
             font-size: 14px;
-}
+        }
 
 
-/* .addtocart{
+        /* .addtocart{
     text-align: center;
     font-size: 14px;
     border: 1px solid grey;
@@ -111,408 +119,440 @@
 } */
     </style>
 </head>
+
 <body>
     <div id="mainbox">
-        <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg" alt="E-gift Voucher">
+        <div id="pr1">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
             <p class="gift">E-GIFT Voucher</p>
-           
+
             <div>
                 <p class="price">500 Rs</p>
             </div>
-            <div id="innerbox">
+            <div id="innerbox1">
                 <p class="mrp">MRP ₹500</p>
-                <p class="addtocart">ADD <img src=""fa-solid fa-cart-shopping" alt="cart"></p>
+                <button class="addtocart">ADD <img src="fa-solid fa-cart-shopping" alt="cart"></button>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
             <p class="gift">E-GIFT Voucher</p>
             <div>
-                <p class="price" >1000 Rs</p>
+                <p class="price">1000 Rs</p>
             </div>
-           
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹500</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg" alt="E-gift Voucher">
-           <p class="del">DELIVERY IN 90 MINUTES</p>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
             <p class="gift">E-GIFT Voucher</p>
             <div>
                 <p class="price">2000 Rs</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹500</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg" alt="E-gift Voucher">
-           <p class="del">DELIVERY IN 90 MINUTES</p>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
             <p class="gift">E-GIFT Voucher</p>
             <div>
                 <p class="price">3000 Rs</p>
             </div>
-           
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹500</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg" alt="E-gift Voucher">
-           <p class="del">DELIVERY IN 90 MINUTES</p>
-           <p class="gift">E-GIFT Voucher</p>
-           <div>
-            <p class="price">5000 Rs</p>
-           </div>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
+            <p class="gift">E-GIFT Voucher</p>
+            <div>
+                <p class="price">5000 Rs</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹500</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
             <p class="gift">E-GIFT Voucher</p>
             <div>
                 <p class="price">10000 Rs</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹500</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/589a65d7-b02e-43a5-b416-1e41b6556453_425x425.jpg" alt="E-gift Voucher">
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/589a65d7-b02e-43a5-b416-1e41b6556453_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Embrace The Far East Hamper</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2949</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e1a82cda-72a5-4359-9274-ab397dce0098_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">The Luxury World Food Trunk Handpic...</p>
-           <div>
-            <p class="price">1 Pc</p>
-           </div>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e1a82cda-72a5-4359-9274-ab397dce0098_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">The Luxury World Food Trunk Handpic...</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹9749</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/00b01a2b-5669-43a2-b908-a32ca8992abe_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/00b01a2b-5669-43a2-b908-a32ca8992abe_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Food For Throught Hamper</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-           
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹4549</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/12120c2e-1018-481c-a34f-129ddfe43434_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/12120c2e-1018-481c-a34f-129ddfe43434_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Tune Up Immune</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-           
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2649</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/20f9c9c5-f4c0-4bc5-9a04-47673f98e70b_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">The Vitamin C Hamper</p>
-           <div>
-            <p class="price">1 Pc</p>
-           </div>
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/20f9c9c5-f4c0-4bc5-9a04-47673f98e70b_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">The Vitamin C Hamper</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹849</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/14f49225-922e-48b4-9037-861f10264ec1_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">Your're Cheesy</p>
-           <div>
-            <p class="price">1 Pc</p>
-           </div>
-          
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/14f49225-922e-48b4-9037-861f10264ec1_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Your're Cheesy</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹4499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4f44b1cc-67a1-4127-9844-98fb16477c48_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4f44b1cc-67a1-4127-9844-98fb16477c48_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">The Mighty Celebration Trunk</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-           
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹7799</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/22b9de68-adfa-4288-8053-3ae0f7eaa440_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/22b9de68-adfa-4288-8053-3ae0f7eaa440_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">The Guilt Free Hamper</p>
 
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹5899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7ec70cd9-85a9-4e74-bc25-55e8ae4f6991_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7ec70cd9-85a9-4e74-bc25-55e8ae4f6991_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Italian Fiesta</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2999</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7d575df6-56c1-4a9a-99b0-57d367649eed_425x425.jpg" alt="E-gift Voucher">
-           
-           <p class="gift">The Forbidden Fruit Hamper</p>
-           <div>
-            <p class="price">1 Pc</p>
-        </div>
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7d575df6-56c1-4a9a-99b0-57d367649eed_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">The Forbidden Fruit Hamper</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹849</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
-  
+
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ec5a37e9-3cd9-41e7-9961-12ec515d2e3d_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ec5a37e9-3cd9-41e7-9961-12ec515d2e3d_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Love For Food Hamper</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/398fb058-2de3-40ff-9f3d-bc9d4524564c_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">Large Holy Guacamole Box</p>
-           <div>
-            <p class="price">1 Pc</p>
-        </div>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/398fb058-2de3-40ff-9f3d-bc9d4524564c_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Large Holy Guacamole Box</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹4049</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/cde53b0f-40be-40c4-b027-e432d8b75677_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">Nutty Way</p>
-           <div>
-            <p class="price">1 Pc</p>
-        </div>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/cde53b0f-40be-40c4-b027-e432d8b75677_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Nutty Way</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹3149</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/74e42070-5371-4ce9-a75a-b7d6cc3f2715_425x425.jpg">
-            
-           <p class="gift">The Holy Guacamole Box</p>
-           <div>
-            <p class="price">1 Pc</p>
-        </div>
-            
+            <img
+                src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/74e42070-5371-4ce9-a75a-b7d6cc3f2715_425x425.jpg">
+
+            <p class="gift">The Holy Guacamole Box</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/95d25014-24a6-47b3-942a-c8c6cd24f22e_425x425.jpg">
-           
+            <img
+                src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/95d25014-24a6-47b3-942a-c8c6cd24f22e_425x425.jpg">
+
             <p class="gift">Hola Mexico</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2999</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/9a4c7e02-3abc-4335-934c-7b3f235a4a55_425x425.jpg">
-           
+            <img
+                src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/9a4c7e02-3abc-4335-934c-7b3f235a4a55_425x425.jpg">
+
             <p class="gift">Holy Guacamole Trunk</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹4899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/a0130256-262d-47bb-9ead-14b774f4e488_425x425.jpg" alt="E-gift Voucher">
-           
-           <p class="gift">Breakfast Buddy</p>
-           <div>
-            <p class="price">1 Pc</p>
-        </div>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/a0130256-262d-47bb-9ead-14b774f4e488_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Breakfast Buddy</p>
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2149</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/97e7631e-a04b-402a-a4ec-397f83091458_425x425.jpg">
-            <span><p>DELIVERY IN 90 MINUTES</p></span>
+            <img
+                src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/97e7631e-a04b-402a-a4ec-397f83091458_425x425.jpg">
+            <span>
+                <p>DELIVERY IN 90 MINUTES</p>
+            </span>
             <p class="gift">The Exotic Tea Trunk</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹3399</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d4d37b94-94cb-4d20-9985-1435be816b16_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">The Luxury Tea Trove By Anamika Kha..</p>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d4d37b94-94cb-4d20-9985-1435be816b16_425x425.jpg"
+                alt="E-gift Voucher">
 
-           <div>
-            <p class="price">1 Pc</p>
-        </div>
-            
+            <p class="gift">The Luxury Tea Trove By Anamika Kha..</p>
+
+            <div>
+                <p class="price">1 Pc</p>
+            </div>
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹11499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e130cf1b-78e4-4eff-acc7-6375e6038794_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e130cf1b-78e4-4eff-acc7-6375e6038794_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Baking Saturday</p>
 
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹2849</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/9e4d686b-c600-4695-82c3-f6301c57eb03_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/9e4d686b-c600-4695-82c3-f6301c57eb03_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Nuts About Nuts Hamper</p>
 
             <div>
                 <p class="price">1 Pc</p>
             </div>
-           
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹5899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/9c3e02ca-66a7-4f43-af2d-3ed05ce7cc4e_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/9c3e02ca-66a7-4f43-af2d-3ed05ce7cc4e_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Chocolate Fetish</p>
             <div>
                 <p class="price">1 Pc</p>
             </div>
-            
+
             <div id="innerbox">
                 <p class="mrp">MRP ₹4449</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/22bcb00a-5097-42a3-be18-ba7deab9062a_425x425.jpg" alt="E-gift Voucher">
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/22bcb00a-5097-42a3-be18-ba7deab9062a_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">The Baker's Dozen</p>
             <div>
                 <p class="price">1 Pc</p>
@@ -521,11 +561,12 @@
                 <p class="mrp">MRP ₹4399</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c95456e9-65f9-4e73-ba09-0434dc64900f_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c95456e9-65f9-4e73-ba09-0434dc64900f_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">The MF Hussain Hamper</p>
             <div>
                 <p class="price">1 Pc</p>
@@ -534,50 +575,54 @@
                 <p class="mrp">MRP ₹5499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5dc76bc0-b9ba-46d2-9cfe-61b0559761f4_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">Fitness Snacker</p>
-           <div>
-            <p class="price1">1 Pc</p>
-        </div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5dc76bc0-b9ba-46d2-9cfe-61b0559761f4_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Fitness Snacker</p>
+            <div>
+                <p class="price1">1 Pc</p>
+            </div>
             <div id="innerbox">
                 <p class="mrp">MRP ₹1599</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/22f36c6a-a913-4876-8fa2-89b520c5647d_425x425.jpg" alt="E-gift Voucher">
-           
-           <p class="gift">The Binge Hamper</p>
-           <div>
-            <p class="price1">1 Pc</p>
-        </div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/22f36c6a-a913-4876-8fa2-89b520c5647d_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">The Binge Hamper</p>
+            <div>
+                <p class="price1">1 Pc</p>
+            </div>
             <div id="innerbox">
                 <p class="mrp">MRP ₹4049</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4946abf7-c736-47fc-91c8-8717a24dbf14_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">Netflix & Chill Trunk</p>
-           <div>
-            <p class="price1">1 Pc</p>
-        </div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4946abf7-c736-47fc-91c8-8717a24dbf14_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Netflix & Chill Trunk</p>
+            <div>
+                <p class="price1">1 Pc</p>
+            </div>
             <div id="innerbox">
                 <p class="mrp">MRP ₹7099</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/edd1f640-a354-4225-98cc-a3c69ec07682_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/edd1f640-a354-4225-98cc-a3c69ec07682_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Daily Dose Of Caffeine Box</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -586,11 +631,12 @@
                 <p class="mrp">MRP ₹1899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/b0532a6c-81a6-4e84-bbac-1d2d9d16ecf3_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/b0532a6c-81a6-4e84-bbac-1d2d9d16ecf3_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Obsessive Coffee Disorder</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -599,24 +645,26 @@
                 <p class="mrp">MRP ₹2999</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/66ef1562-f57a-4843-ad41-6a19cd07a3d1_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">The Bose Krishnamachari Hamper</p>
-           <div>
-            <p class="price1">1 Pc</p>
-        </div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/66ef1562-f57a-4843-ad41-6a19cd07a3d1_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">The Bose Krishnamachari Hamper</p>
+            <div>
+                <p class="price1">1 Pc</p>
+            </div>
             <div id="innerbox">
                 <p class="mrp">MRP ₹4949</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7c9276d4-5e27-4153-974d-44d0e59d4ef8_425x425.jpg" alt="E-gift Voucher">
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7c9276d4-5e27-4153-974d-44d0e59d4ef8_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Lazy AF</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -625,24 +673,26 @@
                 <p class="mrp">MRP ₹1099</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f6875071-4e28-4a8e-bb70-a53ecf4b41b4_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">Healthy First</p>
-           <div>
-            <p class="price1">1 Pc</p>
-        </div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f6875071-4e28-4a8e-bb70-a53ecf4b41b4_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">Healthy First</p>
+            <div>
+                <p class="price1">1 Pc</p>
+            </div>
             <div id="innerbox">
                 <p class="mrp">MRP ₹1199</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/bd5b3741-c9be-4ea4-b342-69708106d4cc_425x425.jpg" alt="E-gift Voucher">
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/bd5b3741-c9be-4ea4-b342-69708106d4cc_425x425.jpg"
+                alt="E-gift Voucher">
+
             <p class="gift">Food For Every Mood Hamper (Jain) </p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -651,25 +701,27 @@
                 <p class="mrp">MRP ₹2599</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c7235da5-d8bc-47d9-a05c-77fc713e3a76_425x425.jpg" alt="E-gift Voucher">
-            
-           <p class="gift">The Endless Love Affair</p>
-           <div>
-            <p class="price1">1 Pc</p>
-        </div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c7235da5-d8bc-47d9-a05c-77fc713e3a76_425x425.jpg"
+                alt="E-gift Voucher">
+
+            <p class="gift">The Endless Love Affair</p>
+            <div>
+                <p class="price1">1 Pc</p>
+            </div>
             <div id="innerbox">
                 <p class="mrp">MRP ₹5699</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/3a144c15-1f3b-4f98-8869-980bcafa26fd_425x425.jpg">
-          <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+            <img
+                src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/3a144c15-1f3b-4f98-8869-980bcafa26fd_425x425.jpg">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
+
             <p class="gift">The Forbidden Fruit Large Hamper</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -678,12 +730,13 @@
                 <p class="mrp">MRP ₹1349</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4ba7b06b-b138-4ee2-b255-b89f628b7839_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4ba7b06b-b138-4ee2-b255-b89f628b7839_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-          
+
             <p class="gift">Food Lover's Trunk</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -692,12 +745,13 @@
                 <p class="mrp">MRP ₹6849</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/8ff67fda-3d1f-494f-a9eb-568b9c256f35_425x425.jpg" alt="E-gift Voucher">
-           <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/8ff67fda-3d1f-494f-a9eb-568b9c256f35_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
+
             <p class="gift">The perfect Snack Box</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -706,12 +760,13 @@
                 <p class="mrp">MRP ₹5299</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/444c0687-5b46-4df5-8666-1d1173769c79_425x425.jpg" alt="E-gift Voucher">
-           <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/444c0687-5b46-4df5-8666-1d1173769c79_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
+
             <p class="gift">The Positivitea Trunk</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -720,12 +775,13 @@
                 <p class="mrp">MRP ₹5449</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/6a1ed9a5-4d41-414e-b52c-a05aeed5f7d8_425x425.jpg" alt="E-gift Voucher">
-           <p class="del">DELIVERY IN 90 MINUTES</p>
-          
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/6a1ed9a5-4d41-414e-b52c-a05aeed5f7d8_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del">DELIVERY IN 90 MINUTES</p>
+
             <p class="gift">Nut & Chill</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -734,12 +790,13 @@
                 <p class="mrp">MRP ₹849</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/034e5fee-1148-4668-9e5c-7e82e4f1b175_425x425.jpg" alt="E-gift Voucher">
-           <p class="del"> DELIVERY IN 90 MINUTES</p>
-            
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/034e5fee-1148-4668-9e5c-7e82e4f1b175_425x425.jpg"
+                alt="E-gift Voucher">
+            <p class="del"> DELIVERY IN 90 MINUTES</p>
+
             <p class="gift">The Zero Guilt Gluten Free Box Hand..</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -748,12 +805,13 @@
                 <p class="mrp">MRP ₹4899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ee254f97-3b02-45cb-996b-db9a36c7e620_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ee254f97-3b02-45cb-996b-db9a36c7e620_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-          
+
             <p class="gift">The Non GMO Hamper</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -762,12 +820,13 @@
                 <p class="mrp">MRP ₹3499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f9f876f3-bb5b-4e88-9936-327cb102d6bc_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f9f876f3-bb5b-4e88-9936-327cb102d6bc_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+
             <p class="gift">The Lindt Case</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -776,12 +835,13 @@
                 <p class="mrp">MRP ₹6249</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7ea20673-3f0b-4afe-888d-243ef5c9c38e_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7ea20673-3f0b-4afe-888d-243ef5c9c38e_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-            
+
             <p class="gift">The Crunchy Munchies</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -790,14 +850,15 @@
                 <p class="mrp">MRP ₹1049</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/233ab49a-4fe2-40c3-a8be-f3947e6fdda8_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/233ab49a-4fe2-40c3-a8be-f3947e6fdda8_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
 
             <p class="gift">The Anamika Khanna Vegan Goodie Box</p>
-           
+
             <div>
                 <p class="price1">1 Pc</p>
             </div>
@@ -805,14 +866,15 @@
                 <p class="mrp">MRP ₹7699</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f0b607d3-f86e-4af6-937b-adb098e99832_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f0b607d3-f86e-4af6-937b-adb098e99832_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
 
             <p class="gift">Good Snacker</p>
-            
+
             <div>
                 <p class="price1">1 Pc</p>
             </div>
@@ -820,12 +882,13 @@
                 <p class="mrp">MRP ₹1199</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/0fad03c3-3c33-4011-bc8c-00d83ed02938_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/0fad03c3-3c33-4011-bc8c-00d83ed02938_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-          
+
             <p class="gift">The Celebratory Food Trunk Handpick..</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -834,12 +897,13 @@
                 <p class="mrp">MRP ₹6849</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7e020b90-58dd-4f35-a235-f019bae24e33_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7e020b90-58dd-4f35-a235-f019bae24e33_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-            
+
             <p class="gift">A Large Dose Of Vitamin C Hamper</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -848,12 +912,13 @@
                 <p class="mrp">MRP ₹1199</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/b8a18a91-ac0d-4c6a-a024-95d4fc949e35_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/b8a18a91-ac0d-4c6a-a024-95d4fc949e35_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+
             <p class="gift">Little Nibbles</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -862,12 +927,13 @@
                 <p class="mrp">MRP ₹2499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c787a3ef-0acb-4a22-8228-8e7ccbd8a74b_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c787a3ef-0acb-4a22-8228-8e7ccbd8a74b_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+
             <p class="gift">The Midnight Stash</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -876,12 +942,13 @@
                 <p class="mrp">MRP ₹899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7b227528-bb2e-4dd6-a074-82fc055905b1_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/7b227528-bb2e-4dd6-a074-82fc055905b1_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-          
+
             <p class="gift">The Exotic World Food Trunk</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -890,12 +957,13 @@
                 <p class="mrp">MRP ₹9699</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d48d81c5-6cda-4599-90da-61964df0c69b_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d48d81c5-6cda-4599-90da-61964df0c69b_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+
             <p class="gift">The Paresh Maity Hamper</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -904,12 +972,13 @@
                 <p class="mrp">MRP ₹6549</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d112db56-3ab4-4469-839b-279886eb0b1c_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d112db56-3ab4-4469-839b-279886eb0b1c_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+
             <p class="gift">Conscious Indulgence Box</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -918,12 +987,13 @@
                 <p class="mrp">MRP ₹2149</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/0f8335be-5740-4652-b07a-f459ae86a120_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/0f8335be-5740-4652-b07a-f459ae86a120_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-            
+
             <p class="gift">The Tray Of Six Senses</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -932,12 +1002,13 @@
                 <p class="mrp">MRP ₹1149</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ba9c5d44-39d5-484b-8ea3-8c0a49ba4100_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ba9c5d44-39d5-484b-8ea3-8c0a49ba4100_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del"> DELIVERY IN 90 MINUTES</p>
-           
+
             <p class="gift">The Caffeine Addict</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -946,12 +1017,13 @@
                 <p class="mrp">MRP ₹6999</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ac9a6ff2-c629-4f65-9c1a-2b8a590876b8_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ac9a6ff2-c629-4f65-9c1a-2b8a590876b8_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-            
+
             <p class="gift">The Chocoholic </p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -960,12 +1032,13 @@
                 <p class="mrp">MRP ₹2249</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d3f189fd-2da7-4f60-a87d-3f6adb163fdd_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d3f189fd-2da7-4f60-a87d-3f6adb163fdd_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-            
+
             <p class="gift">The Gluten Free Box</p>
             <div>
                 <p class="price1">1 Pc</p>
@@ -974,12 +1047,13 @@
                 <p class="mrp">MRP ₹4899</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
         <div>
-            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/393c9e50-421d-4583-af61-88c4e66ff873_425x425.jpg" alt="E-gift Voucher">
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/393c9e50-421d-4583-af61-88c4e66ff873_425x425.jpg"
+                alt="E-gift Voucher">
             <p class="del">DELIVERY IN 90 MINUTES</p>
-           
+
             <P class="gift">The Six Senses Of Indulgence Hamper</P>
             <div>
                 <p class="price1">1 Pc</p>
@@ -988,16 +1062,18 @@
                 <p class="mrp">MRP ₹3499</p>
                 <p class="addtocart">ADD <img src="" alt="cart"></p>
             </div>
-            
+
         </div>
 
 
-    </div> 
+    </div>
     <div id="foot-container">
         <div class="download-section">
             <h4 class="foot-h4">DOWNLOAD THE APP</h4>
-            <img style="width: 170px; margin-top: 10px;" src="https://cdn.worldvectorlogo.com/logos/get-it-on-google-play.svg" alt="Google Play">
-            <img style="width: 170px; margin-top: 10px;" src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg" alt="Apple Store">
+            <img style="width: 170px; margin-top: 10px;"
+                src="https://cdn.worldvectorlogo.com/logos/get-it-on-google-play.svg" alt="Google Play">
+            <img style="width: 170px; margin-top: 10px;"
+                src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg" alt="Apple Store">
         </div>
         <div class="about-section">
             <h4 class="foot-h4">ABOUT US</h4>
@@ -1051,11 +1127,21 @@
         </div>
         <div class="socialbtn">
             Keep in Touch
-            <img style="width: 20px; height: 20px; margin-top: 17px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.famille-epanouie.fr%2Fwp-content%2Fuploads%2F2020%2F05%2F519-5190929_facebook-icon-svg-grey-hd-png-download.png&f=1&nofb=1" alt="fb">
-            <img style="width: 20px; height: 20px; margin-top: 17px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Hiyq_zU4v_q9AIowgWVeFAHaGT%26pid%3DApi&f=1" alt="twitter">
-            <img style="width: 20px; height: 20px; margin-top: 17px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zKP6ojEoanFJq-T_5TYT-gAAAA%26pid%3DApi&f=1" alt="youtube">
-            <img style="width: 20px; height: 20px; margin-top: 17px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yb9gdlGvOGah48ZvmVPkjgHaHa%26pid%3DApi&f=1" alt="instagram">
-            <img style="width: 20px; height: 20px; margin-top: 17px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eyR2wIf2b7Eo9FcghaNrbwAAAA%26pid%3DApi&f=1" alt="pintrest">
+            <img style="width: 20px; height: 20px; margin-top: 17px;"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.famille-epanouie.fr%2Fwp-content%2Fuploads%2F2020%2F05%2F519-5190929_facebook-icon-svg-grey-hd-png-download.png&f=1&nofb=1"
+                alt="fb">
+            <img style="width: 20px; height: 20px; margin-top: 17px;"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Hiyq_zU4v_q9AIowgWVeFAHaGT%26pid%3DApi&f=1"
+                alt="twitter">
+            <img style="width: 20px; height: 20px; margin-top: 17px;"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zKP6ojEoanFJq-T_5TYT-gAAAA%26pid%3DApi&f=1"
+                alt="youtube">
+            <img style="width: 20px; height: 20px; margin-top: 17px;"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yb9gdlGvOGah48ZvmVPkjgHaHa%26pid%3DApi&f=1"
+                alt="instagram">
+            <img style="width: 20px; height: 20px; margin-top: 17px;"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eyR2wIf2b7Eo9FcghaNrbwAAAA%26pid%3DApi&f=1"
+                alt="pintrest">
         </div>
     </div>
     <hr>
@@ -1165,12 +1251,24 @@
     <script>
         let popup = document.getElementById('btnn');
 
-         function openPopup(){
+        function openPopup() {
             popup.classList.add('open-popup');
-         }
-         function closePopup(){
+        }
+        function closePopup() {
             popup.classList.remove('open-popup');
-         }
+        }
+
+        document.querySelector(".addtocart").addEventListener("click", myfunc)
+        let cart=[];
+        function myfunc() {
+            let obj={
+              image: document.querySelector("pr1>img").value,
+              price: document.querySelector("#pr1>.price").innerText
+            }
+            cart.push(obj);
+            localStorage.setItem("cart-page",JSON.stringify(cart))
+        }
     </script>
 </body>
+
 </html>
