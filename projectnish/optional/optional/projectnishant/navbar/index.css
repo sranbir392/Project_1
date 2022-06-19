@@ -18,15 +18,16 @@
     height: 32px;
     text-align: left !important;
     color: #393939; */
-    /* *{
-        padding-bottom:1px;
-        /* margin: */
-        /* box-sizing: border-box; */
+     /* *{
+        padding:0;
+        margin: 0; 
+         box-sizing: border-box;
+        position: relative; } */
   
 
 #navstart{
     display: flex;
-      /* border: 5px solid blue;   */
+       /* border: 5px solid blue;    */
     /* box-sizing: border-box; */
     padding: 0px 0px 0px 0px;
     width: 100%;
@@ -38,13 +39,14 @@
      left:0;
      right: 0px;
      bottom: 0;
-     /* z-index: 9999; */
+      z-index: 1000000; 
      /* overflow: hidden; */
      /* opacity: 1; */
     /* position: sticky;  */
     /* position: fixed;  */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
      background-color: white; 
+     
    
      /* background-color: yellow;  */
     

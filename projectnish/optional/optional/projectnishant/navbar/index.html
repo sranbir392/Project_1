@@ -6,124 +6,1005 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="utility.css" />
+    <!-- <link rel="stylesheet" href="utility.css" /> -->
+    <link rel="stylesheet" href="mhome.css" />
+    <link rel="stylesheet" href="mfooter.css">
   </head>
   <body>
-    
-      
-        <div id="navstart">
-          <div id="firstimgdiv">
+    <div id="navstart">
+      <div id="firstimgdiv">
+        <img
+          id="firstimg"
+          src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2"
+         style="cursor: pointer;"/>
+        <!-- <button></button> -->
+        <!-- <div id="rightnav"> -->
+      </div>
+      <div id="up">
+        <div id="upbox">
+          <span class="" id="span1">Online Slots Availability</span>
+          <span class="" id="span2">Fresh &amp; Fast</span>
+          <span class="" id="span3">Store Locator</span>
+          <span class="" id="span4">Contact Us</span>
+        </div>
+        <div id="login1" style="min-width: 150px">
+          <span class="upd" id="loginnav">login</span>
+          <span class="upd">|</span>
+          <sapn class="upd" id="regnav"> Register</sapn>
+        </div>
+
+        <div id="navright">
+          <div id="enterpindiv">
+            <!-- <span class="" id="span1">Online Slots Availability</span> -->
             <img
-              id="firstimg"
-              src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGMSURBVEhL7ZU5i8JQFIVPIjbuglaKiqKgldra+tNTW7lbiKKiICK4r5FzJwZGnppipssHISHL9w7nJkTbbDYm/gHd2v85rtjGFdso3+Nut4tWq4Xz+Yx8Po9KpQKPx2NddYYycbvdxn6/RzQaRTgcRqfTwWq1wvV6te74jlLMpPF4HKFQCMvlUhaifLFYOJYrxblcDtlsVo5ZyWw2Q7PZxGAwkOT3+12ufUIprlaruFwumE6n2G63ME1Tqun1emg0GnL8Ta4Uc1DJZBLpdBqBQACapsn54/GIyWQCwzCkok+1KMUkGAyKuFgsipyLMeVut8NoNJJq5vP5W/lbsa7rMsBSqSSdc5BPOavo9/sYDodYr9fWE795KyaURyIR1Go1Se/3++1aDocDxuOxbKq+P4oJRV6vF+VyWWphRcTn8yGTySAWi4n8Fcd/EKbiwNgvt0QiIQueTidJX6/XrTt/+Jr4CWthukKhIL2nUin5kPiWcIivOBYTyvmJs5Lb7SZJKWfqV9yfqY0rtgAegm7K9Yn/f5UAAAAASUVORK5CYII="
             />
-            <!-- <button></button> -->
-            <!-- <div id="rightnav"> -->
+            <input
+              type="text"
+              id="enterpin"
+              value="Enter Pin"
+              readonly=""
+              class=""
+            />
           </div>
-          <div id="up">
-            <div id="upbox">
-              <span class="" id="span1">Online Slots Availability</span>
-              <span class="" id="span2">Fresh &amp; Fast</span>
-              <span class="" id="span3">Store Locator</span>
-              <span class="" id="span4">Contact Us</span>
-            </div>
-            <div id="login1" style="min-width:150px">
-              <span class="upd">login</span>
-              <span class="upd">|</span>
-              <sapn class="upd"> Register</sapn>
-            </div>
+          <select id="nexttopin">
+            <option value="mumbai">Mumbai</option>
+            <option value="pune">Pune</option>
+            <option value="delhi ncr">Delhi NCR</option>
+            <option value="bengaluru">Bengaluru</option>
+            <option value="thane">Thane</option>
+            <option value="navi mumbai">Navi Mumbai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="raigarh mh">Raigarh MH</option>
+          </select>
+          <!-- <form action="https://www.google.com/search" method="get"> -->
+          <input
+            type="text"
+            id="search"
+            class="hello"
+            placeholder="Start shopping..."
+            value=""
+            autocomplete="off"
+          />
 
-            <div id="navright">
-              <div id="enterpindiv" >
-                <!-- <span class="" id="span1">Online Slots Availability</span> -->
-                <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGMSURBVEhL7ZU5i8JQFIVPIjbuglaKiqKgldra+tNTW7lbiKKiICK4r5FzJwZGnppipssHISHL9w7nJkTbbDYm/gHd2v85rtjGFdso3+Nut4tWq4Xz+Yx8Po9KpQKPx2NddYYycbvdxn6/RzQaRTgcRqfTwWq1wvV6te74jlLMpPF4HKFQCMvlUhaifLFYOJYrxblcDtlsVo5ZyWw2Q7PZxGAwkOT3+12ufUIprlaruFwumE6n2G63ME1Tqun1emg0GnL8Ta4Uc1DJZBLpdBqBQACapsn54/GIyWQCwzCkok+1KMUkGAyKuFgsipyLMeVut8NoNJJq5vP5W/lbsa7rMsBSqSSdc5BPOavo9/sYDodYr9fWE795KyaURyIR1Go1Se/3++1aDocDxuOxbKq+P4oJRV6vF+VyWWphRcTn8yGTySAWi4n8Fcd/EKbiwNgvt0QiIQueTidJX6/XrTt/+Jr4CWthukKhIL2nUin5kPiWcIivOBYTyvmJs5Lb7SZJKWfqV9yfqY0rtgAegm7K9Yn/f5UAAAAASUVORK5CYII="
-                />
-                <input
-                  type="text"
-                  id="enterpin"
-                  value="Enter Pin"
-                  readonly=""
-                  class=""
-                />
-              </div>
-              <select id="nexttopin">
-                <option value="mumbai">Mumbai</option>
-                <option value="pune">Pune</option>
-                <option value="delhi ncr">Delhi NCR</option>
-                <option value="bengaluru">Bengaluru</option>
-                <option value="thane">Thane</option>
-                <option value="navi mumbai">Navi Mumbai</option>
-                <option value="kolkata">Kolkata</option>
-                <option value="raigarh mh">Raigarh MH</option>
-              </select>
-              <!-- <form action="https://www.google.com/search" method="get"> -->
-              <input
-                type="text"
-                id="search"
-                class="hello"
-                placeholder="Start shopping..."
-                value=""
-                autocomplete="off"
-              />
-              
-              <input
-                type="image"
-                name=""
-                class="search1"
-                src="https://www.naturesbasket.co.in/Images/search-button.jpg"
-              />
-              <img src="cart2.png"
-              style="height:30px;width:30px  ;margin-left: 20px;"
-              >
-              <!-- <i style="width:100px"class="fi fi-br-shopping-bag"></i> -->
-              <!-- </form> -->
-            </div>
-          </div>
-          <!-- <div id =ruk> -->
-          <!-- <img src="	https://www.naturesbasket.co.in/Images/header-icons.jpg" > -->
-          <!-- </div> -->
-        </div> 
-        
-    <div id="check">
-      <!-- <p>dfjsdaf</p> -->
-
-      
+          <input
+            type="image"
+            name=""
+            class="search1"
+            src="https://www.naturesbasket.co.in/Images/search-button.jpg"
+          />
+          <img
+            id="cartnav"
+            src="cart2.png"
+            style="height: 30px; width: 30px; margin-left: 20px"
+          />
+          <!-- <i style="width:100px"class="fi fi-br-shopping-bag"></i> -->
+          <!-- </form> -->
+        </div>
+      </div>
+      <!-- <div id =ruk> -->
+      <!-- <img src="	https://www.naturesbasket.co.in/Images/header-icons.jpg" > -->
+      <!-- </div> -->
     </div>
 
-    <div class="popup_pin"> 
-      <div class="insidepop">
-        <div class="close">+</div>
+    <!-- <div id="check">
+       <p>dfjsdaf</p> -->
+    <!-- </div> --> 
+
+     <div class="ppopup_pin"> 
+      <div class="insidepopp">
+         <div class="closee">+</div>
         <div class="HeadingContainer">
           <span class="spanHeading"> Enter Your Delivery Pincode</span>
         </div>
-         <div id="divListContainer" style="overflow: hidden; padding: 0px; width: 628px;">
+         <!-- <div id="divListContainer" style="overflow: hidden; padding: 0px; width: 628px;">
         <input type="text"  maxlength="6" 
         placeholder="Delivery pincode" 
-          id="txt" value="411011"> 
-         <input 
+          < id="txt" value="411011">   -->
+     <input 
           type="text"
           maxlength="6"
           placeholder="Delivery pincode"
-          id="txt"
-          value=""
-        />
+          id="txtt"
+          value="">
+         
         <input type="button" class="btnCss" id="btnAddPin" value="SUBMIT" />
         <br />
         <div id="niche_kr">
         <span class="spanSubHeading">
           Entering your delivery pincode will allow us to show you the products
           available in your area and to ensure timely delivery.
-          <br />
+          <br /> 
         </span>
-      </div>
-        <div class="popup_login">
+      </div> -
+        <!-- <div class="popup_login">
           <a style="color: red; cursor:pointer"><u>Click here</u> </a>to Login / Register for a
-          customised shopping experience<br />
+          customised shopping experience<br /> --> 
+        <!-- </div>  --> 
+     </div> 
+     </div> 
+
+    <!-- homep page -->
+
+    <div id="mainnav">
+      <div class="heading">
+        <a href="#">SHOP BY CATEGORY </a>
+        <div class="submenu1">
+          <a href="#"
+            ><div class="opt" id="gift">
+              Gift Hampers
+              <div class="box">
+                <div class="box11" id="img1">
+                  <div class="box1">
+                    <h6>gift hampers</h6>
+                    <p>e-gift voucher</p>
+                    <p>bulk/customised gifting</p>
+                    <p>gift vouchers</p>
+                    <p>all hampers</p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="fru">
+              fruits & vegetables
+              <div class="box">
+                <div class="box11" id="img2">
+                  <div class="box1">
+                    <h6>daily vegetables</h6>
+                    <p>seasonal</p>
+                    <p>beans and brinjal</p>
+                    <p>broccoli & cauliflower</p>
+                    <p>chilies, garlic, lemon</p>
+                    <p>truffles and mushrooms</p>
+                    <p>onion, potato & tomatoes</p>
+                    <p>peas & corn</p>
+                    <p>peppers and lady fingers</p>
+                    <p>lettuce and leafy</p>
+                    <p>herbs and sprouts</p>
+                    <p>gourd, cucumber & pumpkin</p>
+                    <h6>exotic vegetables</h6>
+                    <p>asparagus & artichokes</p>
+                    <p>avacados & peppers</p>
+                    <p>brocolli & zucchini</p>
+                    <p>celer, fennel & leeks</p>
+                    <p>chilies & lime</p>
+                    <p>edible flowers</p>
+                    <p>heirloom tomatoes</p>
+                    <p>herbs & microgreens</p>
+                    <p>others</p>
+                  </div>
+                  <div class="box1">
+                    <h6>organic</h6>
+                    <p>vegetables</p>
+                    <p>fruits</p>
+                    <h6>fruits</h6>
+                    <p>seasonal</p>
+                    <p>apples & bananas</p>
+                    <p>berries</p>
+                    <p>citrus fruits</p>
+                    <p>grapes</p>
+                    <p>mangoes</p>
+                    <p>melons</p>
+                    <p>pears</p>
+                    <p>plums and apricots</p>
+                    <p>tropical & other fruits</p>
+                    <p>dry fruits & dry seeds</p>
+                    <h6>exotic fruits</h6>
+                    <p>berries</p>
+                    <p>tropical fruits</p>
+                    <p>others</p>
+                  </div>
+                  <div class="box1">
+                    <h6>canned & frozen</h6>
+                    <p>canned fruits & fruit pulp</p>
+                    <p>canned vegetables</p>
+                    <p>frozen fruits & vegetables</p>
+                    <h6>cold-pressed fresh juices</h6>
+                  </div>
+                  <img
+                    src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Organicweb.png"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="meat">
+              cheese,meat & fruit
+              <div class="box">
+                <div class="box11" id="img3">
+                  <div class="box1">
+                    <h6>party platters</h6>
+                    <p>cheese platter</p>
+                    <p>meat platter</p>
+                    <h6>mini platters</h6>
+                    <p>cheese platter</p>
+                    <p>meat platter</p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="deli">
+              delicatessen & cheese
+              <div class="box">
+                <div class="box11" id="img4">
+                  <div class="box1">
+                    <h6>fresh snacks & party food</h6>
+                    <p>hors d'oeuvres</p>
+                    <p>sandwiches & salads</p>
+                    <p>platters & dips</p>
+                    <p>pastries & desserts</p>
+                    <h6>antipasti</h6>
+                    <p>olives, capers & tapenades</p>
+                    <p>gherkins & jalapenos</p>
+                    <p>sundried tomatoes & others</p>
+                    <h6>gourmet cheese shop</h6>
+                    <p>brie,camembert & blue cheese</p>
+                    <p>cheddar, gouda & edam</p>
+                    <p>cream & cottage cheese</p>
+                    <p>feta & halloumi</p>
+                    <p>goat cheese & others</p>
+                    <p>mozzarella, mascarpone & ricotta</p>
+                    <p>paneer & tofu</p>
+                    <p>parmesan & pecorino</p>
+                    <p>smoked cheese</p>
+                    <p>cheese platters</p>
+                  </div>
+                  <div class="box1">
+                    <h6>cold cuts & sausages</h6>
+                    <p>chicken & turkey cold cuts</p>
+                    <p>park-bacon, proscuitto & cured ham</p>
+                    <p>pork-salami, chorizo & pepperoni</p>
+                    <p>pork & lamb sausages</p>
+                    <p>pastrami</p>
+                    <h6>cheese spread, slices & others</h6>
+                    <p>cheese cubes, tins & others</p>
+                    <p>cheese spreads & slices</p>
+                    <p>recipe fest</p>
+                    <p>cheese fest</p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="cui">
+              international cuisine
+              <div class="box">
+                <div class="box11" id="img5">
+                  <div class="box1">
+                    <h6>italian & continental</h6>
+                    <p>pasta</p>
+                    <p>whole wheat & other pasta</p>
+                    <p>arborio rice & polenta</p>
+                    <p>sauces,pastes & marinad</p>
+                    <p>olives, capers & tapenad</p>
+                    <h6>middle-eastern</h6>
+                    <p>couscous & sauces</p>
+                    <p>pastes & condiments</p>
+                    <p>breads, hummus</p>
+                    <h6>condiments</h6>
+                    <p>dried herbs</p>
+                    <p>spices & seasoning</p>
+                    <p>mustards, ketchup & mayo</p>
+                    <h6>flours, grains & more</h6>
+                    <p>couscous & polenta</p>
+                    <p>rice & quinoa</p>
+                    <p>flours</p>
+                    <p>amaranth, buckwheat</p>
+                    <p>white, brown & flavoured</p>
+                  </div>
+                  <div class="box1">
+                    <h6>mexican</h6>
+                    <p>tortillas, tacos & others</p>
+                    <p>sauces & pastes</p>
+                    <p>baked beans</p>
+                    <h6>salad dressing</h6>
+                    <p>french, italian & greek ..</p>
+                    <p>vinaigrettes & thin dres..</p>
+                    <p>salad cream & mayonnaise</p>
+                    <h6>vinegars & mustards</h6>
+                    <p>balsamic & cide vinegar</p>
+                    <p>other vinegars</p>
+                    <p>mustards</p>
+                    <h6>salt, sugar & substitutes</h6>
+                    <p>icing & castor sugar</p>
+                    <p>sweetner & substitutes</p>
+                    <p>salt, flavored & sea salt</p>
+                  </div>
+                  <div class="box1">
+                    <h6>pan-asian</h6>
+                    <p>noodles & rice</p>
+                    <p>sauces, curries & pastes</p>
+                    <p>japenese essentials</p>
+                    <p>wraps, rolls & others</p>
+                    <h6>oils</h6>
+                    <p>seeds & nuts</p>
+                    <p>vegetable oils</p>
+                    <p>olive & extravirgin olive oils</p>
+                    <p>cold-pressed oils</p>
+                    <p>infused oils</p>
+                    <p>oil sprays</p>
+                    <h6>soups</h6>
+                    <p>continental soups</p>
+                    <p>oriental soups</p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="hea">
+              health
+              <div class="box">
+                <div class="box11" id="img6">
+                  <div class="box1">
+                    <h6>weight management foods</h6>
+                    <p>butters & oil</p>
+                    <p>dry fruits, museli & bran</p>
+                    <p>flours and grains</p>
+                    <p>rice, couscous & quinoa</p>
+                    <p>seafood</p>
+                    <p>soups & dressings</p>
+                    <p>soya snacks, biscuits</p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="ind">
+              indian grocery
+              <div class="box">
+                <div class="box11" id="img7">
+                  <div class="box1">
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="pati">
+              confectionary & patisserie
+              <div class="box">
+                <div class="box11" id="img8">
+                  <div class="box1">
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="sea">
+              meat,seafood and eggs
+              <div class="box">
+                <div class="box11" id="img9">
+                  <div class="box1">
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="sna">
+              snack bar
+              <div class="box">
+                <div class="box11" id="img10">
+                  <div class="box1">
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="bev">
+              snacks & beverages
+              <div class="box">
+                <div class="box11" id="img11">
+                  <div class="box1">
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
+          <a href="#"
+            ><div class="opt" id="pack">
+              packing material
+              <div class="box">
+                <div class="box11" id="img12">
+                  <div class="box1">
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <img
+                    src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+                    alt=""
+                  />
+                </div>
+              </div></div
+          ></a>
         </div>
       </div>
-     </div>   
-    
+      <div class="heading"><a href="#">MY ORDERS</a></div>
+      <div class="heading"><a href="raj.html">GIFTING</a></div>
+      <div class="heading"><a href="#">REWARDS</a></div>
+      <div class="heading">
+        <a href="blogm.html">BLOG</a>
+        <div class="submenu2">
+          <a href=""><div class="opt">Gift Hampers</div></a>
+          <a href="#"><div class="opt">fruits & vegetables</div></a>
+          <a href="#"><div class="opt">cheese,meat & fruit</div></a>
+          <a href="#"><div class="opt">delicatessen & cheese</div></a>
+        </div>
+      </div>
+      <div class="heading"><a href="#">OFFERS</a></div>
+      <div class="heading"><a href="#">CONNOISSEUR'S SELECTION</a></div>
+      <div class="heading"><a href="#">BOOK STORE VISIT</a></div>
+    </div>
+    <div id="poster1">
+      <img
+        src="//gnbdevcdn.s3-ap-southeast-1.amazonaws.com/Marketing/d8cc09f5-5d68-4853-ae9a-233ceabe3acd.jpg"
+        alt=""
+      />
+    </div>
+    <div id="poster2">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <input type="radio" name="radio-btn" id="radio5" />
+          <input type="radio" name="radio-btn" id="radio6" />
+          <input type="radio" name="radio-btn" id="radio7" />
+          <input type="radio" name="radio-btn" id="radio8" />
+          <input type="radio" name="radio-btn" id="radio9" />
+          <div class="slide first">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/172ece1d-70d5-44d5-a5f4-0d236c1d815a_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/0f2301bb-4607-47f9-859c-1c2c21642159_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/fcff6bcb-f6fa-489d-abba-07b77fa32be5_1320x376.png"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/5658ebaa-f296-4121-991c-c2009109e764_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/4c720a91-f8f7-437a-bbfd-71e63580e802_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/82a1ea7f-02c2-4192-b0d7-588973fa8d14_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/bc1eefce-0553-4b16-bc75-45a4ee42a22e_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/305a62b1-b655-4366-9a9c-b1d4c92685d5_1320x376.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://d1z88p83zuviay.cloudfront.net/BannerImages/a1bb73ba-00a7-4473-ac0a-cafd9500e6eb_1320x376.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+            <div class="auto-btn6"></div>
+            <div class="auto-btn7"></div>
+            <div class="auto-btn8"></div>
+            <div class="auto-btn9"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
+          <label for="radio6" class="manual-btn"></label>
+          <label for="radio7" class="manual-btn"></label>
+          <label for="radio8" class="manual-btn"></label>
+          <label for="radio9" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+    <div id="poster3">
+      <div>
+        <img
+          src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://www.naturesbasket.co.in/Images/Japanesecuisine-webbox.png?v=9"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://www.naturesbasket.co.in/Images/Gluten-free-web%20box%20banner.png?v=15"
+          alt=""
+        />
+      </div>
+    </div>
+    <h1>SHOP BY CATEGORY</h1>
+    <section class="product">
+      <button class="pre-btn"><img src="arrow.png" alt="" /></button>
+      <button class="nxt-btn"><img src="arrow.png" alt="" /></button>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Exoticvegetablesweb.png"
+              class="product-thumb"
+              alt=""
+            />
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Exotic Vegetables</h2>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <button>View all</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/coldcutweb.png"
+              class="product-thumb"
+              alt=""
+            />
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Exotic Vegetables</h2>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <button>View all</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Organicweb.png"
+              class="product-thumb"
+              alt=""
+            />
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Exotic Vegetables</h2>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <button>View all</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Freshartisinalbreadsweb.png"
+              class="product-thumb"
+              alt=""
+            />
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Exotic Vegetables</h2>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <button>View all</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/dailyessentialsweb.png"
+              class="product-thumb"
+              alt=""
+            />
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Exotic Vegetables</h2>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <button>View all</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Exoticvegetablesweb.png"
+              class="product-thumb"
+              alt=""
+            />
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Exotic Vegetables</h2>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <p class="product-short-description">Aspharagus Artichokes</p>
+            <button>View all</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="info">
+      <h2>Online Grocery Store India</h2>
+      <p>
+        Nature’s Basket is a grocery store operating in Mumbai, Bangalore and
+        Pune with deliveries to all cities across India including Hyderabad,
+        Delhi, Kolkata, Chennai, Surat and more. We offer a wide range of food
+        products for all your everyday needs and even offer grocery home
+        delivery as well as a grocery shop online for you to purchase from. Our
+        online grocery store has fresh fruits and vegetables, fresh and frozen
+        meats and seafood, a wide range of breads and other packaged bakery
+        products as well as a range of fresh cheeses from around the world. We
+        even have a range of every staple and international cuisine product to
+        meet your needs along with organic products for fresh and packaged food
+        items. With our offerings, we have the best online food shop & online
+        grocery shopping platform available for all your grocery products as
+        well as physical grocery stores in select cities.
+      </p>
+      <h2>Best Online Grocery Supermarket India</h2>
+      <p>
+        With stores in Mumbai, Pune and Bangalore and online delivery services,
+        you can now have all your grocery supermarket shopping done online. We
+        have a wide range of grocery products to offer at our stores for you to
+        buy groceries from a channel convenient to you. Choose from fresh
+        produce to packaged goods, buy groceries online and get them delivered
+        straight to your doorstep, thus making it a convenient and quick
+        process. You can pay for the shopping using credit cards, cash, coupons
+        or online banking facility. We are sure to have all the grocery products
+        for your daily dietary needs from regular local Indian brands and
+        products to exotic and international imported ones.
+      </p>
+      <h2>Online Grocery Supermarket Shopping India</h2>
+      <p>
+        With our wide range of groceries available, Nature’s Basket is a large
+        online supermarket and grocery store for all your everyday food needs.
+        We offer you the best quality grocery products which you can buy online
+        and have them delivered to you conveniently. We have our grocery stores
+        in Mumbai, Pune and Bangalore where you can buy groceries and food
+        items. We also have the best online grocery store to shop for fruits and
+        vegetables, meats and seafood, breads and other bakery items as well as
+        cheese and dairy. Order groceries online from the best quality grocery
+        store at best prices.
+      </p>
+      <p>
+        Find a variety of Best Christmas gifts such as delightful Cakes,
+        Chocolates, Cookies, Turkey, Stollen, Gourmet Gift Baskets, Sweets &
+        Lots More Here
+      </p>
+    </div>
+    <!-- footer starts -->
+    <div id="mfoot">
+    <div id="foot-container">
+      <div class="download-section">
+        <h4 class="foot-h4">DOWNLOAD THE APP</h4>
+        <img
+          style="width: 170px; margin-top: 10px"
+          src="https://cdn.worldvectorlogo.com/logos/get-it-on-google-play.svg"
+          alt="Google Play"
+        />
+        <img
+          style="width: 170px; margin-top: 10px"
+          src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg"
+          alt="Apple Store"
+        />
+      </div>
+      <div class="about-section">
+        <h4 class="foot-h4">ABOUT US</h4>
+        <div class="foot-hf">
+          <a class="foot-a" href="about.html">About Us</a>
+        </div>
+        <div class="foot-hf">
+          <a class="foot-a" href="vision.html">Our Vision & Purpose</a>
+        </div>
+        <p class="foot-p">Quality standards</p>
+        <p class="foot-p">Awards</p>
+        <p class="foot-p">FAQS</p>
+        <p class="foot-p">Available Delivery Slot</p>
+        <p class="foot-p">Vendor Connect</p>
+        <h4 class="foot-h4">CAREERS</h4>
+        <p class="foot-p">Work with us</p>
+      </div>
+      <div class="news-section">
+        <h4 class="foot-h4">NEWS & MEDIA</h4>
+        <p class="foot-p">Press release</p>
+        <p class="foot-p">Newsletters</p>
+        <p class="foot-p">Events</p>
+        <p class="foot-p">Photo gallery</p>
+        <p class="foot-p">Recips</p>
+        <p class="foot-p">NBTV</p>
+        <p class="foot-p">Our Virtual Store</p>
+      </div>
+      <div class="our-section">
+        <h4 class="foot-h4">OUR POLICIES</h4>
+        <p class="foot-p">Privacy policy</p>
+        <p class="foot-p">Payment policy</p>
+        <p class="foot-p">Disclaimer</p>
+        <p class="foot-p">Statutory Compliance</p>
+        <p class="foot-p">Data Protection Policy</p>
+        <p class="foot-p">Grievance Officer</p>
+        <p class="foot-p">Information Security Policy</p>
+      </div>
+      <div class="sign-section">
+        <h4 class="foot-h4">SIGN UP TO STAY UPDATED</h4>
+        <input
+          class="foot-input"
+          type="email"
+          placeholder="ENTER YOUR EMAIL ADDRESS"
+          required
+        />
+        <button
+          style="cursor: pointer"
+          type="submit"
+          class="btnn"
+          onclick="openPopup()"
+        >
+          SUBSCRIBE
+        </button>
+        <div class="popup" id="btnn">
+          <img src="https://raw.githubusercontent.com/sranbir392/Project_1/product/404-tick.png" />
+          <h2>Thank You!</h2>
+          <p>Your details has been successfully submitted. Thanks!</p>
+          <button type="button" onclick="closePopup()">OK</button>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div id="child-container">
+      <div class="paymentMethod">
+        Payment Method
+        <img
+          src="https://www.naturesbasket.co.in/Images/icons-card-payments-mode.png"
+          alt="visa"
+        />
+      </div>
+      <div class="socialbtn">
+        Keep in Touch
+        <img
+          style="width: 20px; height: 20px; margin-top: 17px"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.famille-epanouie.fr%2Fwp-content%2Fuploads%2F2020%2F05%2F519-5190929_facebook-icon-svg-grey-hd-png-download.png&f=1&nofb=1"
+          alt="fb"
+        />
+        <img
+          style="width: 20px; height: 20px; margin-top: 17px"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Hiyq_zU4v_q9AIowgWVeFAHaGT%26pid%3DApi&f=1"
+          alt="twitter"
+        />
+        <img
+          style="width: 20px; height: 20px; margin-top: 17px"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zKP6ojEoanFJq-T_5TYT-gAAAA%26pid%3DApi&f=1"
+          alt="youtube"
+        />
+        <img
+          style="width: 20px; height: 20px; margin-top: 17px"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yb9gdlGvOGah48ZvmVPkjgHaHa%26pid%3DApi&f=1"
+          alt="instagram"
+        />
+        <img
+          style="width: 20px; height: 20px; margin-top: 17px"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eyR2wIf2b7Eo9FcghaNrbwAAAA%26pid%3DApi&f=1"
+          alt="pintrest"
+        />
+      </div>
+    </div>
+    <hr />
+    <div id="foot-container">
+      <div>
+        <h4 class="foot-h4">FRESH & FAST</h4>
+        <h4 class="foot-h4">GIFT HAMPERS</h4>
+        <p class="foot-p">Birthday & Anniversary Gift Hampers</p>
+        <p class="foot-p">World cuisine Gift Hampers</p>
+        <p class="foot-p">Organic & Health Gift Hampers</p>
+        <p class="foot-p">Coffee & Tea Gift Hampers</p>
+        <p class="foot-p">Get Well Soon Gift Hampers</p>
+        <p class="foot-p">Cheese & Meat Platters</p>
+        <h4 class="foot-h4">FRUITS & VEGETABLES</h4>
+        <p class="foot-p">Vegetables</p>
+        <p class="foot-p">Exotic Vegetables</p>
+        <p class="foot-p">Fruits</p>
+        <p class="foot-p">Organic Fruits & Vegetables</p>
+        <p class="foot-p">Exotic Fruits</p>
+        <p class="foot-p">Canned & Frozen</p>
+        <p class="foot-p">Cold - Pressed Fresh Juices</p>
+        <h4 class="foot-h4">DELICATESSEN & CHEESE</h4>
+        <p class="foot-p">Fresh Snacks & Party Food</p>
+        <p class="foot-p">Antipasti</p>
+        <p class="foot-p">Gourment Cheese Shop</p>
+        <p class="foot-p">Cold Cuts & Sausages</p>
+        <p class="foot-p">Cheese Spread, Slice & Others</p>
+      </div>
+      <div>
+        <h4 class="foot-h4">INTERNATIONAL CUISINE</h4>
+        <p class="foot-p">Italian & Continental</p>
+        <p class="foot-p">Middle-Eastern</p>
+        <p class="foot-p">Condiments</p>
+        <p class="foot-p">Flours, Grain & More</p>
+        <p class="foot-p">Mexican</p>
+        <p class="foot-p">Salad Dressing</p>
+        <p class="foot-p">Vinegars & Mustards</p>
+        <p class="foot-p">Salt, Sugar & Substitutes</p>
+        <p class="foot-p">Pan-Asian</p>
+        <p class="foot-p">Baking Ingredients</p>
+        <p class="foot-p">Oils</p>
+        <p class="foot-p">Soups</p>
+        <h4 class="foot-h4">HEALTH</h4>
+        <p class="foot-p">Weight Management Foods</p>
+        <p class="foot-p">Heart - Healthy Foods</p>
+        <p class="foot-p">Wellness & Immunity Boosters</p>
+        <p class="foot-p">Diabetic - Friendly Foods</p>
+        <p class="foot-p">Problem Solution Foods</p>
+        <p class="foot-p">Organic</p>
+      </div>
+      <div>
+        <h4 class="foot-h4">CONFECTIONARY & PATISSERIE</h4>
+        <p class="foot-p">Chocolates</p>
+        <p class="foot-p">Dessert Mixes, Sauces & Toppings</p>
+        <p class="foot-p">Ice Creams & Desserts</p>
+        <p class="foot-p">Confectionery</p>
+        <p class="foot-p">Baking Ingredients</p>
+        <p class="foot-p">Patisserie</p>
+        <h4 class="foot-h4">MEATS, SEAFOOD AND EGGS</h4>
+        <p class="foot-p">Fresh Meats & Seafood</p>
+        <p class="foot-p">Cold Cuts & Sausages</p>
+        <p class="foot-p">Packaged Sea food & Meats</p>
+        <p class="foot-p">Eggs</p>
+        <p class="foot-p">Frozen</p>
+      </div>
+      <div>
+        <h4 class="foot-h4">BREAKFAST & DAIRY</h4>
+        <p class="foot-p">Cerals, Bars & Others</p>
+        <p class="foot-p">Jams, Preserves & Conserves</p>
+        <p class="foot-p">Honey</p>
+        <p class="foot-p">Indian Breakfast Favourites</p>
+        <p class="foot-p">Spreads</p>
+        <p class="foot-p">Milk, Yogurt & Other Dairy Drinks</p>
+        <p class="foot-p">Butters & Margarines</p>
+        <p class="foot-p">Bakery</p>
+        <h4 class="foot-h4">INSTANT MEAL & AIDS</h4>
+        <p class="foot-p">Ready to Cook</p>
+        <p class="foot-p">Ready to Eat</p>
+        <p class="foot-p">Accessories</p>
+        <p class="foot-p">Books</p>
+      </div>
+      <div>
+        <h4 class="foot-h4">SNACKS & BEVERAGES</h4>
+        <p class="foot-p">Cookies & Crackers</p>
+        <p class="foot-p">Frozen Snacks</p>
+        <p class="foot-p">Antipasti</p>
+        <p class="foot-p">Dry Snacks</p>
+        <p class="foot-p">Fresh Snacks & party Food</p>
+        <p class="foot-p">Relishes & Pickles</p>
+        <p class="foot-p">Carbonated Drinks</p>
+        <p class="foot-p">Teas</p>
+        <p class="foot-p">Concentrate</p>
+        <p class="foot-p">Energy Drinks & Milks Additives</p>
+        <p class="foot-p">Juice</p>
+        <p class="foot-p">Coffee</p>
+        <p class="foot-p">Dairy Drinks</p>
+        <p class="foot-p">Water</p>
+        <h4 class="foot-h4">INDIAN GROCERY</h4>
+        <p class="foot-p">Flours, Grains & More</p>
+        <p class="foot-p">Cooking Pasters & Sauces</p>
+        <p class="foot-p">Cooking Spices & Powders</p>
+        <p class="foot-p">Salt, Sugar & Substitutes</p>
+        <p class="foot-p">Oils</p>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
 <script src="index.js"></script>
+<script src="mhome.js"></script>
+
+<script>
+  let popup = document.getElementById("btnn");
+
+  function openPopup() {
+    popup.classList.add("open-popup");
+  }
+  function closePopup() {
+    popup.classList.remove("open-popup");
+  }
+  document.querySelector("#firstimg").addEventListener("click",function(){
+    location.href="index.html"
+  })
+</script>
