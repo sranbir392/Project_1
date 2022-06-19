@@ -6,16 +6,36 @@
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
-    background-color: hsl(77, 45%, 44%);
+    background-color: hsl(78, 28%, 81%);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #E7EADF;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #box{
-    background-color: #F8E34C;
+    background-color: #E7EADF;
 }
 .card{
+    background-color: rgb(148, 146, 146);
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    perspective: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card1{
+    background-color: hsl(76, 28%, 41%);
+    border-radius: 50px;
     width: 350px;
     height: 500px;
     perspective: 1000px;
@@ -28,7 +48,7 @@
     /* transform-style: preserve-3d;
     transition: transform 1s; */
 }
-.card-front,.card-back{
+.card-front{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -38,14 +58,29 @@
     box-sizing: border-box;
     backface-visibility: hidden;
 }
-.card-back{
-    transform: rotateY(180deg);
+.card1-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
 }
 .card h1{
-    font-weight: normal;
-    font-size: 24px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 25px;
     text-align: center;
-    margin-bottom:20px ;
+    margin-bottom:30px ;
+}
+.card1 h1{
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom:30px ;
 }
 .input-box{
     width: 100%;
@@ -64,9 +99,24 @@
     color: black;
     font-size: 12px;
 }
-#mob,#email,#passo{
+#mob,#email,#password{
         width: 100%;
-        background: transparent;
+        background-color: #E7EADF;
+        /* background: transparent; */
+        border: 1px solid black;
+        margin: 6px 0;
+        height: 32px;
+        border-radius: 20px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        outline: none;
+        text-align: center;
+        color: black;
+}
+#mob,#email,#password{
+        width: 100%;
+        background-color: #E7EADF;
+        /* background: transparent; */
         border: 1px solid black;
         margin: 6px 0;
         height: 32px;
@@ -97,6 +147,36 @@ button{
     position: relative;
     background-color: black;
 }
+#btn{
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline:none;
+    color: #fff;
+    cursor: pointer;
+    background-color: black; 
+    position: relative;
+    background-color: black;
+}
+#btn::after{
+    content:'\27a4';
+    color:#333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
 .submit-btn::after{
     content:'\27a4';
     color:#333;
@@ -111,6 +191,7 @@ button{
     top: -1px;
 
 }
+
 span{
     font-size: 13px;
     margin-left: 10px;
@@ -126,8 +207,47 @@ span{
     font-size: 13px;
     margin-top: 8px;
 }
-#nature{
-    background-color: #EDEDED;
+.card1 a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
+/* #nature{
+    background-color: #F8E34C;
     justify-content: center;
     text-align: center;
+}
+#nature1{
+    background-color: #F8E34C;
+    justify-content: center;
+    text-align: center;
+} */
+.card-front>img{
+    /* margin-top: -200px; */
+    margin-bottom: 40px;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
+.card-front a:hover{
+    color:brown
+}
+.card-front button:hover{
+    color: brown
+}
+.card1-front>img{
+    /* margin-top: -200px; */
+    margin-bottom: 40px;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
+.card1-front a:hover{
+    color:brown
+}
+.card1-front button:hover{
+    color: brown
 }

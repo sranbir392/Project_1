@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="nature">
-        <img src="https://www.naturesbasket.co.in/Images/smalllogonew.jpg?v=2" alt="error">
+    <div id="nature1">
+        
     </div>
-    <div class="container">
-        <div class="card">
-            <div class="inner-box" id="card">
-                <div class="card-front">
+    <div class="container1">
+        <div class="card1">
+            <div class="inner-box" id="card1">
+                <div class="card1-front">
+                    <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2019/09/300-x-300px.png" alt="error">
                     <h1>REGISTER</h1>
                     <form>
-                        <input type="Number" id="mob" placeholder="Your Mobile Number">
-                        <input type="email" id="email" placeholder="Your Mail">
-                        <input type="password" id="passo" placeholder="Password">
+                        <input type="text" class="input-box" id="mob" placeholder="Your Mobile Number">
+                        <input type="email" class="input-box" id="email" placeholder="Your Mail">
+                        <input type="password" class="input-box" id="password" placeholder="Password">
                         <button type="submit" class="submit-btn" id="sub">Submit</button>
                         <input type="checkbox"><span>Remember Me</span>
                     </form>
-                    <a href="">Forgot Password</a>
+                    <!-- <a href="">Forgot Password</a> -->
                 </div>
             </div>
         </div>
@@ -42,8 +43,8 @@
         let data = {
             mob: form.mob.value,
             email: form.email.value,
-            passo: form.passo.value,
-            sub: form.sub.value,
+            password: form.password.value,
+            // sub: form.sub.value,
         }
 
         if (checkMail(data.email) === true) {
@@ -51,7 +52,7 @@
             localStorage.setItem("userData", JSON.stringify(userData));
             window.location.href="login.html"
         } else {
-            alert("Some error occured or OTP limit exceeded.");
+            alert("Account Already Exists");
         }
     }
 
