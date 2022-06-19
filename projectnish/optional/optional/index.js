@@ -44,49 +44,49 @@ document.querySelector("#span2").addEventListener("click",function(){
   
 //   }
 })
-document.querySelector("#nexttopin").addEventListener("change",function(){
-    localStorage.removeItem("pin");
+// document.querySelector("#nexttopin").addEventListener("change",function(){
+//     localStorage.removeItem("pin");
     
-   })
-   var mensData = [
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-EX4296/reebok_EX4296_1.jpg.plp",
-      name: "MEN'S REEBOK RUNNING ROADMAP SHOES",
-      price: "1170",
-      strikedoffprice: "$2599",
-      quantity:1,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-EX3921/reebok_EX3921_1.jpg.plp",
-      name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
-      price: 699,
-      strikedoffprice: 999,
-      quantity:1,
-    }
-   ]
-//    res()
-let arrdata=[]
-    let res=mensData.forEach(function(el){
-        let divs=document.createElement("div");
-        let imgs=document.createElement("img");
-        imgs.src=el.image_url;
-        let texts1=document.createElement("h2");
-        texts1.innerText=el.name;
-        let texts2=document.createElement("h2");
-        texts2.innerText=el.price;
-        let btn=document.createElement("button");
-        btn.innerText="Add to cart";
-        btn.addEventListener("click",function(){
-          console.log(el)
-          arrdata.push(el)
-          console.log(arrdata)
-          localStorage.setItem("cartmei",JSON.stringify(arrdata))
-        })
-        divs.append(imgs,texts1,texts2,btn);
-         document.querySelector("#check").append(divs)
-      })
+//    })
+//    var mensData = [
+//     {
+//       image_url:
+//         "https://content.shop4reebok.com/static/Product-EX4296/reebok_EX4296_1.jpg.plp",
+//       name: "MEN'S REEBOK RUNNING ROADMAP SHOES",
+//       price: "1170",
+//       strikedoffprice: "$2599",
+//       quantity:1,
+//     },
+//     {
+//       image_url:
+//         "https://content.shop4reebok.com/static/Product-EX3921/reebok_EX3921_1.jpg.plp",
+//       name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
+//       price: 699,
+//       strikedoffprice: 999,
+//       quantity:1,
+//     }
+//    ]
+// //    res()
+// let arrdata=[]
+//     let res=mensData.forEach(function(el){
+//         let divs=document.createElement("div");
+//         let imgs=document.createElement("img");
+//         imgs.src=el.image_url;
+//         let texts1=document.createElement("h2");
+//         texts1.innerText=el.name;
+//         let texts2=document.createElement("h2");
+//         texts2.innerText=el.price;
+//         let btn=document.createElement("button");
+//         btn.innerText="Add to cart";
+//         btn.addEventListener("click",function(){
+//           console.log(el)
+//           arrdata.push(el)
+//           console.log(arrdata)
+//           localStorage.setItem("cartmei",JSON.stringify(arrdata))
+//         })
+//         divs.append(imgs,texts1,texts2,btn);
+//          document.querySelector("#check").append(divs)
+//       })
       // document.querySelectorAll(".upd")[0].innerText="logout";
       // document.querySelectorAll(".upd")[1].innerText="";
       // document.querySelectorAll(".upd")[2].innerText="";
