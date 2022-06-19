@@ -62,7 +62,7 @@ let trenddata = [
 // let trendbox=document.querySelector("#trend").createElement("div")
 // trendbox.createElement("img")
 
-let arrdata = []
+let arrdata = JSON.parse(localStorage.getItem("cartmei"))|| []
 let res = trenddata.forEach(function (el) {
     let divs = document.createElement("div");
     divs.setAttribute("class","trendbox")
