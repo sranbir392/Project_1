@@ -184,7 +184,7 @@ productid:"r12",
   productID: "r21",    
 }
 ]
-let arrdata=[]
+let arrdata=JSON.parse(localStorage.getItem("cartmei"))||[]
 display(giftdata)
 function display(giftdata){
  document.querySelector("#boundaryy").innerHTML=""
