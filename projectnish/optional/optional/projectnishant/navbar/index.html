@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="https://gnbdevcdn.s3.amazonaws.com/Images/favicon.png" />
+    <title>Online Supermarket & Premium Grocery ...</title>
     <link rel="stylesheet" href="index.css" />
     <!-- <link rel="stylesheet" href="utility.css" /> -->
     <link rel="stylesheet" href="mhome.css" />
@@ -39,7 +40,7 @@
             <img
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGMSURBVEhL7ZU5i8JQFIVPIjbuglaKiqKgldra+tNTW7lbiKKiICK4r5FzJwZGnppipssHISHL9w7nJkTbbDYm/gHd2v85rtjGFdso3+Nut4tWq4Xz+Yx8Po9KpQKPx2NddYYycbvdxn6/RzQaRTgcRqfTwWq1wvV6te74jlLMpPF4HKFQCMvlUhaifLFYOJYrxblcDtlsVo5ZyWw2Q7PZxGAwkOT3+12ufUIprlaruFwumE6n2G63ME1Tqun1emg0GnL8Ta4Uc1DJZBLpdBqBQACapsn54/GIyWQCwzCkok+1KMUkGAyKuFgsipyLMeVut8NoNJJq5vP5W/lbsa7rMsBSqSSdc5BPOavo9/sYDodYr9fWE795KyaURyIR1Go1Se/3++1aDocDxuOxbKq+P4oJRV6vF+VyWWphRcTn8yGTySAWi4n8Fcd/EKbiwNgvt0QiIQueTidJX6/XrTt/+Jr4CWthukKhIL2nUin5kPiWcIivOBYTyvmJs5Lb7SZJKWfqV9yfqY0rtgAegm7K9Yn/f5UAAAAASUVORK5CYII="
             />
-            <input
+            <input 
               type="text"
               id="enterpin"
               value="Enter Pin"
@@ -1007,4 +1008,11 @@
   document.querySelector("#firstimg").addEventListener("click",function(){
     location.href="index.html"
   })
+
+   document.querySelector("#nextopin").addEventListener("change",function(){
+    localStorage.removeItem("pin");
+    // document.querySelector("#enterpin").value="";
+    // location.reload(false)
+    // console.log(3)
+   })
 </script>

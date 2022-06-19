@@ -4,7 +4,7 @@ let giftdata=[
       
       name: "E-GIFT Voucher",
       quantity:"1",
-      price: "5000 Rs",
+      price: "5000",
       // addtocart: "ADD",
       productID: "r22",
     },
@@ -13,7 +13,7 @@ let giftdata=[
       
       name: "E-GIFT Voucher",
       quantity:"1",
-      price: "10000 Rs",
+      price: "10000",
       // addtocart: "ADD",
       productID: "r23",  
     },
@@ -104,7 +104,7 @@ productid:"r12",
    // 
    name: "E-GIFT Voucher",
    quantity:"1",
-   price: "500 ",
+   price: "50000 ",
    // addtocart: "ADD",
    productID: "r13",
    },
@@ -132,7 +132,7 @@ productid:"r12",
    
    name: "E-GIFT Voucher",
    quantity:"1",
-   price: "3000 Rs",
+   price: "3000 ",
    // addtocart: "ADD",
    productID: "r16",
    
@@ -185,6 +185,9 @@ productid:"r12",
  }
 ]
  let arrdata=[]
+ display(giftdata)
+ function display(giftdata){
+  document.querySelector("#boundaryy").innerHTML=""
     let res=giftdata.forEach(function(el){
         let divs=document.createElement("div");
         let inner1=document.createElement("p");
@@ -209,5 +212,57 @@ productid:"r12",
           alert("Product added to cart")
         })
         divs.append(imgs,inner1,texts1,texts2,btn);
-         document.querySelector("#boundaryy").append(divs)
-      })
+         document.querySelector("#boundaryy").append(divs);
+
+      
+    })
+  }
+
+    let productbox=document.getElementById("boundaryy");
+document.querySelector("#sort").addEventListener("click",mysort)
+function mysort(){
+    productbox.innerHTML="";
+    let number=document.querySelector("#sort").value
+    if(number==1){
+        giftdata.sort(function(a,b){
+            return a.price-b.price
+        })
+        // console.log(giftdata)
+        
+        display(giftdata);
+
+    }
+    if(number==2){
+        giftdata.sort(function(a,b){
+            return b.price-a.price
+        })
+        display(giftdata);
+    }
+    if(number==0){
+        display(giftdata);
+    }
+}
+ 
+        function gofilter(){
+        let selectedd=+(document.querySelector("#fill").value)
+        console.log(selectedd);
+        if(selectedd!==0){
+        let res=giftdata.filter(function(el,){
+           el.price=Number(el.price)
+              // console.log(typeof(el.price))
+          // if(selectedd===0){
+          //   display(giftdata)
+          //   // window.location.reload()
+          //     }
+              if(selectedd<15000){
+         return (el.price < selectedd && el.price >=(selectedd-5000))
+              }
+              else{ return el.price >=(selectedd-5000)
+              }
+        //  console.log(el.price  selectedd)
+       })
+      //  console.log(res)
+          display(res)
+      }
+       else{display(giftdata)}
+      }
